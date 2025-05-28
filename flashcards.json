@@ -3,161 +3,161 @@
     {
       "concept_card": {
         "concept": "Angle",
-        "explanation": "An angle is formed when two rays or lines meet at a common point. It is usually measured in degrees or radians."
+        "explanation": "An angle is formed by two rays or lines meeting at a common point. It is usually denoted by \\(\\theta\\). Angles can be positive or negative depending on their direction."
       },
       "question_card": {
-        "question": "What is the measure of an angle formed by two rays meeting at a common point?",
+        "question": "What is the angle formed by two rays meeting at a common point called?",
         "options": [
-          "0 degrees",
-          "90 degrees",
-          "It can be any measure",
-          "180 degrees"
+          "Line",
+          "Angle",
+          "Circle",
+          "Ray"
         ],
-        "correct_option": "3"
+        "correct_option": "Angle"
       }
     },
     {
       "concept_card": {
         "concept": "Positive and Negative Angles",
-        "explanation": "Angles measured counterclockwise from the positive x-axis are positive, while angles measured clockwise are negative."
+        "explanation": "Positive angles are measured counterclockwise from the x-axis, while negative angles are measured clockwise."
       },
       "question_card": {
-        "question": "What is the measure of an angle measured clockwise from the positive x-axis?",
+        "question": "How are positive angles measured?",
         "options": [
-          "Positive",
-          "Negative",
-          "Zero",
-          "It can be either"
+          "Clockwise",
+          "Counterclockwise",
+          "Horizontally",
+          "Vertically"
         ],
-        "correct_option": "2"
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Radians",
-        "explanation": "A radian is the angle made by taking the radius and wrapping it along the circle's edge. One full circle is 2π radians."
-      },
-      "question_card": {
-        "question": "How many radians are in a full circle?",
-        "options": [
-          "π radians",
-          "2π radians",
-          "180 radians",
-          "360 radians"
-        ],
-        "correct_option": "2"
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Sine Function",
-        "explanation": "The sine function relates an angle of a right triangle to the ratio of the length of the opposite side to the hypotenuse. It is written as sin(θ)."
-      },
-      "question_card": {
-        "question": "What is the sine of a 90-degree angle?",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "Undefined"
-        ],
-        "correct_option": "2"
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Cosine Function",
-        "explanation": "The cosine function relates an angle of a right triangle to the ratio of the length of the adjacent side to the hypotenuse. It is written as cos(θ)."
-      },
-      "question_card": {
-        "question": "What is the cosine of a 0-degree angle?",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "Undefined"
-        ],
-        "correct_option": "2"
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Tangent Function",
-        "explanation": "The tangent function relates an angle of a right triangle to the ratio of the length of the opposite side to the adjacent side. It is written as tan(θ)."
-      },
-      "question_card": {
-        "question": "What is the tangent of a 45-degree angle?",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "Undefined"
-        ],
-        "correct_option": "2"
+        "correct_option": "Counterclockwise"
       }
     },
     {
       "concept_card": {
         "concept": "Quadrants",
-        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant has positive x and y values, the second has negative x and positive y, the third has negative x and y, and the fourth has positive x and negative y."
+        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant is where both x and y are positive, the second quadrant is where x is negative and y is positive, the third quadrant is where both x and y are negative, and the fourth quadrant is where x is positive and y is negative."
       },
       "question_card": {
-        "question": "In which quadrant are both x and y coordinates negative?",
+        "question": "In which quadrant are both x and y coordinates positive?",
         "options": [
-          "First quadrant",
-          "Second quadrant",
-          "Third quadrant",
-          "Fourth quadrant"
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
         ],
-        "correct_option": "3"
+        "correct_option": "First"
       }
     },
     {
       "concept_card": {
-        "concept": "Reference Angles",
-        "explanation": "A reference angle is the smallest angle that the terminal side of a given angle makes with the x-axis. It is always positive and less than 90 degrees."
+        "concept": "Radians",
+        "explanation": "A radian is a unit of angle measurement. One radian is the angle made by an arc whose length is equal to the radius of the circle."
       },
       "question_card": {
-        "question": "What is the reference angle for a 150-degree angle?",
+        "question": "What is the unit of angle measurement where the angle is made by an arc whose length is equal to the radius of the circle?",
         "options": [
-          "30 degrees",
-          "60 degrees",
-          "90 degrees",
-          "150 degrees"
+          "Degree",
+          "Radian",
+          "Gradient",
+          "Minute"
         ],
-        "correct_option": "1"
+        "correct_option": "Radian"
       }
     },
     {
       "concept_card": {
-        "concept": "Unit Circle",
-        "explanation": "The unit circle is a circle with a radius of 1 centered at the origin of the coordinate plane. It is used to define trigonometric functions."
+        "concept": "Conversion between Degrees and Radians",
+        "explanation": "To convert degrees to radians, multiply by \\(\\frac{\\pi}{180}\\). To convert radians to degrees, multiply by \\(\\frac{180}{\\pi}\\)."
       },
       "question_card": {
-        "question": "What is the radius of the unit circle?",
+        "question": "How do you convert degrees to radians?",
         "options": [
-          "0",
-          "1",
-          "π",
-          "2π"
+          "Multiply by \\(\\frac{180}{\\pi}\\)",
+          "Multiply by \\(\\frac{\\pi}{180}\\)",
+          "Multiply by 2",
+          "Multiply by \\(\\pi\\)"
         ],
-        "correct_option": "2"
+        "correct_option": "Multiply by \\(\\frac{\\pi}{180}\\)"
       }
     },
     {
       "concept_card": {
-        "concept": "Trigonometric Identities",
-        "explanation": "Trigonometric identities are equations involving trigonometric functions that are true for all values of the variables involved. Examples include sin²(θ) + cos²(θ) = 1."
+        "concept": "Sine Function in Different Quadrants",
+        "explanation": "The sine function is positive in the first and second quadrants, and negative in the third and fourth quadrants."
       },
       "question_card": {
-        "question": "Which of the following is a trigonometric identity?",
+        "question": "In which quadrants is the sine function positive?",
         "options": [
-          "sin(θ) + cos(θ) = 1",
-          "sin²(θ) + cos²(θ) = 1",
-          "tan(θ) = sin(θ) / cos(θ)",
-          "sin(2θ) = 2sin(θ)cos(θ)"
+          "First and second",
+          "Second and third",
+          "Third and fourth",
+          "First and fourth"
         ],
-        "correct_option": "2"
+        "correct_option": "First and second"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Cosine Function in Different Quadrants",
+        "explanation": "The cosine function is positive in the first and fourth quadrants, and negative in the second and third quadrants."
+      },
+      "question_card": {
+        "question": "In which quadrants is the cosine function positive?",
+        "options": [
+          "First and second",
+          "Second and third",
+          "Third and fourth",
+          "First and fourth"
+        ],
+        "correct_option": "First and fourth"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Tangent Function in Different Quadrants",
+        "explanation": "The tangent function is positive in the first and third quadrants, and negative in the second and fourth quadrants."
+      },
+      "question_card": {
+        "question": "In which quadrants is the tangent function positive?",
+        "options": [
+          "First and second",
+          "Second and third",
+          "Third and fourth",
+          "First and third"
+        ],
+        "correct_option": "First and third"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Special Angles in Trigonometry",
+        "explanation": "Special angles like 0°, 30°, 45°, 60°, and 90° have specific sine, cosine, and tangent values that are often used in trigonometry."
+      },
+      "question_card": {
+        "question": "What is the sine of 45°?",
+        "options": [
+          "\\(\\frac{1}{2}\\)",
+          "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "1"
+        ],
+        "correct_option": "\\(\\frac{\\sqrt{2}}{2}\\)"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Complementary Angles",
+        "explanation": "Two angles are complementary if their sum is 90°. For example, if \\(\\theta\\) is an angle, then \\(90° - \\theta\\) is its complement."
+      },
+      "question_card": {
+        "question": "What is the complement of an angle \\(\\theta\\)?",
+        "options": [
+          "\\(180° - \\theta\\)",
+          "\\(90° - \\theta\\)",
+          "\\(\\theta - 90°\\)",
+          "\\(\\theta - 180°\\)"
+        ],
+        "correct_option": "\\(90° - \\theta\\)"
       }
     }
   ]

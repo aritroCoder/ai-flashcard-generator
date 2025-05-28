@@ -173,7 +173,7 @@ def generate_flashcards(
 
     prompt = f"""Generate 10 flashcards from the lecture below. There are two types of flashcards: 
 1. concept_card - explains a core idea for student friendly revision, *Always* use latex for mathematical expressions, chemical equations or other relevant things. 
-2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Options should directly contain the option without any serial number (like 1,2,3,4 or A,B,C,D). Correct option should be one of the option numbers (1, 2, 3, or 4). *Only put the correct option number in the correct_option field, not the option text*.
+2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Options should directly contain the option without any serial number (like 1,2,3,4 or A,B,C,D). Correct option should be one of the option numbers (1, 2, 3, or 4). *Only put the correct option number in the correct_option field, not the option text*. Always use latex for mathematical expressions, chemical equations or other relevant things.
 
 Lecture transcript: {transcript}
 Lecture notes: {notes}"""
