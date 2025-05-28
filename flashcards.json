@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Mole Concept",
+        "explanation": "The mole is a numerical prefix used in chemistry to represent a large number of entities (atoms, molecules, ions, etc.). One mole is equal to Avogadro's number, which is approximately \\(6.022 \\times 10^{23}\\). This means that one mole of any substance contains \\(6.022 \\times 10^{23}\\) entities of that substance."
+      },
+      "question_card": {
+        "question": "How many entities are there in one mole of a substance?",
+        "options": [
+          "\\(6.022 \\times 10^{20}\\)",
+          "\\(6.022 \\times 10^{21}\\)",
+          "\\(6.022 \\times 10^{22}\\)",
+          "\\(6.022 \\times 10^{23}\\)"
+        ],
+        "correct_option": "4"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Atomic Mass and Molar Mass",
+        "explanation": "Atomic mass is the mass of a single atom, typically measured in atomic mass units (amu). Molar mass is the mass of one mole of a substance, usually measured in grams per mole (g/mol). For example, the atomic mass of carbon is 12 amu, and its molar mass is 12 g/mol."
+      },
+      "question_card": {
+        "question": "What is the molar mass of carbon if its atomic mass is 12 amu?",
+        "options": [
+          "12 g/mol",
+          "24 g/mol",
+          "6 g/mol",
+          "18 g/mol"
+        ],
+        "correct_option": "1"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Avogadro's Number",
+        "explanation": "Avogadro's number (\\(N_A\\)) is the number of entities in one mole of a substance. It is equal to \\(6.022 \\times 10^{23}\\) entities per mole."
+      },
+      "question_card": {
+        "question": "What is Avogadro's number?",
+        "options": [
+          "\\(6.022 \\times 10^{20}\\)",
+          "\\(6.022 \\times 10^{21}\\)",
+          "\\(6.022 \\times 10^{22}\\)",
+          "\\(6.022 \\times 10^{23}\\)"
+        ],
+        "correct_option": "4"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Molecular Mass",
+        "explanation": "Molecular mass is the sum of the atomic masses of all the atoms in a molecule. It is usually measured in atomic mass units (amu). For example, the molecular mass of water (H2O) is 18 amu (2 hydrogen atoms each with a mass of 1 amu, and 1 oxygen atom with a mass of 16 amu)."
+      },
+      "question_card": {
+        "question": "What is the molecular mass of water (H2O)?",
+        "options": [
+          "16 amu",
+          "18 amu",
+          "20 amu",
+          "22 amu"
+        ],
+        "correct_option": "2"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Significant Figures",
+        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. This includes all non-zero digits, any zeros between significant digits, and any trailing zeros in the decimal portion."
+      },
+      "question_card": {
+        "question": "How many significant figures are in the number 0.004560?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct_option": "3"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Unit Conversion",
+        "explanation": "Unit conversion is the process of converting a quantity from one unit to another. For example, 1 kilogram is equal to 1000 grams, and 1 gram is equal to \\(10^{-3}\\) kilograms."
+      },
+      "question_card": {
+        "question": "How many grams are there in 1 kilogram?",
+        "options": [
+          "100",
+          "1000",
+          "10000",
+          "0.001"
+        ],
+        "correct_option": "2"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mass of One Molecule",
+        "explanation": "The mass of one molecule can be calculated by summing the atomic masses of all the atoms in the molecule. For example, the mass of one molecule of carbon dioxide (CO2) is 44 amu (1 carbon atom with a mass of 12 amu and 2 oxygen atoms each with a mass of 16 amu)."
+      },
+      "question_card": {
+        "question": "What is the mass of one molecule of carbon dioxide (CO2)?",
+        "options": [
+          "28 amu",
+          "32 amu",
+          "44 amu",
+          "48 amu"
+        ],
+        "correct_option": "3"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mass of One Mole",
+        "explanation": "The mass of one mole of a substance (molar mass) is the mass of \\(6.022 \\times 10^{23}\\) entities of that substance. For example, the molar mass of water (H2O) is 18 g/mol, meaning one mole of water weighs 18 grams."
+      },
+      "question_card": {
+        "question": "What is the molar mass of water (H2O)?",
+        "options": [
+          "16 g/mol",
+          "18 g/mol",
+          "20 g/mol",
+          "22 g/mol"
+        ],
+        "correct_option": "2"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Calculating Number of Atoms",
+        "explanation": "To calculate the number of atoms in a given mass of an element, divide the mass by the molar mass and multiply by Avogadro's number. For example, to find the number of atoms in 40 grams of helium (molar mass = 4 g/mol), divide 40 by 4 and multiply by \\(6.022 \\times 10^{23}\\)."
+      },
+      "question_card": {
+        "question": "How many atoms are there in 40 grams of helium (molar mass = 4 g/mol)?",
+        "options": [
+          "\\(6.022 \\times 10^{22}\\)",
+          "\\(6.022 \\times 10^{23}\\)",
+          "\\(12.044 \\times 10^{23}\\)",
+          "\\(24.088 \\times 10^{23}\\)"
+        ],
+        "correct_option": "3"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Calculating Moles from Mass",
+        "explanation": "To calculate the number of moles from a given mass, divide the mass by the molar mass. For example, to find the number of moles in 88 grams of carbon dioxide (molar mass = 44 g/mol), divide 88 by 44."
+      },
+      "question_card": {
+        "question": "How many moles are there in 88 grams of carbon dioxide (molar mass = 44 g/mol)?",
+        "options": [
+          "1 mole",
+          "2 moles",
+          "3 moles",
+          "4 moles"
+        ],
+        "correct_option": "2"
+      }
+    }
+  ]
+}
