@@ -158,7 +158,7 @@ def generate_flashcards(
                                         "type": "array",
                                         "items": {"type": "string"},
                                     },
-                                    "correct_option": {"type": "string"},
+                                    "correct_option": {"type": "number"},
                                 },
                                 "required": ["question", "options", "correct_option"],
                             },
