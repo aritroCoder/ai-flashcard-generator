@@ -65,7 +65,7 @@ elif platform == "litellm":
 
 download_lecture(
     save_path="video",
-    link="https://dat7q2xq1rx4f.cloudfront.net/486b7dca-90a6-4e8d-800f-31bb02fa7bb9.mp4",
+    link="https://dysg3c97clm9i.cloudfront.net/88e2f03c-4ec2-42ff-8cf5-33452cfab4c6/mp4_muxing/88e2f03c-4ec2-42ff-8cf5-33452cfab4c6_720p.mp4",
     filename="vid1.mp4",
 )
 
@@ -173,7 +173,7 @@ def generate_flashcards(
 
     prompt = f"""Generate 10 flashcards from the lecture below. There are two types of flashcards: 
 1. concept_card - explains a core idea for student friendly revision, *Always* use latex for mathematical expressions, chemical equations or other relevant things. 
-2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Correct option should be one of the option numbers (1, 2, 3, or 4).
+2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Options should directly contain the option without any serial number (like 1,2,3,4 or A,B,C,D). Correct option should be one of the option numbers (1, 2, 3, or 4).
 
 Lecture transcript: {transcript}
 Lecture notes: {notes}"""

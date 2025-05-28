@@ -2,162 +2,162 @@
   "flashcards": [
     {
       "concept_card": {
-        "concept": "Mole Concept",
-        "explanation": "The mole is a numerical prefix used in chemistry to represent a large number of entities (atoms, molecules, ions, etc.). One mole is equal to Avogadro's number, which is approximately \\(6.022 \\times 10^{23}\\). This means that one mole of any substance contains \\(6.022 \\times 10^{23}\\) entities of that substance."
+        "concept": "Angle",
+        "explanation": "An angle is formed when two rays originate from a common point. It is usually denoted by \\(\\theta\\)."
       },
       "question_card": {
-        "question": "How many entities are there in one mole of a substance?",
+        "question": "What is the measure of an angle formed by two rays originating from a common point?",
         "options": [
-          "\\(6.022 \\times 10^{20}\\)",
-          "\\(6.022 \\times 10^{21}\\)",
-          "\\(6.022 \\times 10^{22}\\)",
-          "\\(6.022 \\times 10^{23}\\)"
+          "0 degrees",
+          "90 degrees",
+          "180 degrees",
+          "It can be any measure"
         ],
-        "correct_option": "4"
+        "correct_option": "It can be any measure"
       }
     },
     {
       "concept_card": {
-        "concept": "Atomic Mass and Molar Mass",
-        "explanation": "Atomic mass is the mass of a single atom, typically measured in atomic mass units (amu). Molar mass is the mass of one mole of a substance, usually measured in grams per mole (g/mol). For example, the atomic mass of carbon is 12 amu, and its molar mass is 12 g/mol."
+        "concept": "Positive and Negative Angles",
+        "explanation": "Angles measured counterclockwise from the positive x-axis are positive, while angles measured clockwise are negative."
       },
       "question_card": {
-        "question": "What is the molar mass of carbon if its atomic mass is 12 amu?",
+        "question": "If an angle is measured clockwise from the positive x-axis, what is its sign?",
         "options": [
-          "12 g/mol",
-          "24 g/mol",
-          "6 g/mol",
-          "18 g/mol"
+          "Positive",
+          "Negative",
+          "Zero",
+          "Undefined"
         ],
-        "correct_option": "1"
+        "correct_option": "Negative"
       }
     },
     {
       "concept_card": {
-        "concept": "Avogadro's Number",
-        "explanation": "Avogadro's number (\\(N_A\\)) is the number of entities in one mole of a substance. It is equal to \\(6.022 \\times 10^{23}\\) entities per mole."
+        "concept": "Radian",
+        "explanation": "A radian is the angle made at the center of a circle by an arc whose length is equal to the radius of the circle."
       },
       "question_card": {
-        "question": "What is Avogadro's number?",
+        "question": "What is the definition of a radian?",
         "options": [
-          "\\(6.022 \\times 10^{20}\\)",
-          "\\(6.022 \\times 10^{21}\\)",
-          "\\(6.022 \\times 10^{22}\\)",
-          "\\(6.022 \\times 10^{23}\\)"
+          "An angle that measures 90 degrees",
+          "An angle formed by two perpendicular lines",
+          "An angle made at the center of a circle by an arc whose length is equal to the radius",
+          "An angle that measures 180 degrees"
         ],
-        "correct_option": "4"
+        "correct_option": "An angle made at the center of a circle by an arc whose length is equal to the radius"
       }
     },
     {
       "concept_card": {
-        "concept": "Molecular Mass",
-        "explanation": "Molecular mass is the sum of the atomic masses of all the atoms in a molecule. It is usually measured in atomic mass units (amu). For example, the molecular mass of water (H2O) is 18 amu (2 hydrogen atoms each with a mass of 1 amu, and 1 oxygen atom with a mass of 16 amu)."
+        "concept": "Conversion between Degrees and Radians",
+        "explanation": "To convert degrees to radians, multiply by \\(\\frac{\\pi}{180}\\). To convert radians to degrees, multiply by \\(\\frac{180}{\\pi}\\)."
       },
       "question_card": {
-        "question": "What is the molecular mass of water (H2O)?",
+        "question": "How do you convert 180 degrees to radians?",
         "options": [
-          "16 amu",
-          "18 amu",
-          "20 amu",
-          "22 amu"
+          "\\(\\frac{\\pi}{2}\\)",
+          "\\(\\pi\\)",
+          "\\(2\\pi\\)",
+          "\\(\\frac{\\pi}{4}\\)"
         ],
-        "correct_option": "2"
+        "correct_option": "\\(\\pi\\)"
       }
     },
     {
       "concept_card": {
-        "concept": "Significant Figures",
-        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. This includes all non-zero digits, any zeros between significant digits, and any trailing zeros in the decimal portion."
+        "concept": "Sine Function",
+        "explanation": "In a right triangle, the sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse."
       },
       "question_card": {
-        "question": "How many significant figures are in the number 0.004560?",
+        "question": "What is the sine of an angle in a right triangle?",
         "options": [
-          "3",
-          "4",
-          "5",
-          "6"
+          "Adjacent side / Hypotenuse",
+          "Opposite side / Hypotenuse",
+          "Adjacent side / Opposite side",
+          "Hypotenuse / Opposite side"
         ],
-        "correct_option": "3"
+        "correct_option": "Opposite side / Hypotenuse"
       }
     },
     {
       "concept_card": {
-        "concept": "Unit Conversion",
-        "explanation": "Unit conversion is the process of converting a quantity from one unit to another. For example, 1 kilogram is equal to 1000 grams, and 1 gram is equal to \\(10^{-3}\\) kilograms."
+        "concept": "Cosine Function",
+        "explanation": "In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse."
       },
       "question_card": {
-        "question": "How many grams are there in 1 kilogram?",
+        "question": "What is the cosine of an angle in a right triangle?",
         "options": [
-          "100",
-          "1000",
-          "10000",
-          "0.001"
+          "Adjacent side / Hypotenuse",
+          "Opposite side / Hypotenuse",
+          "Adjacent side / Opposite side",
+          "Hypotenuse / Opposite side"
         ],
-        "correct_option": "2"
+        "correct_option": "Adjacent side / Hypotenuse"
       }
     },
     {
       "concept_card": {
-        "concept": "Mass of One Molecule",
-        "explanation": "The mass of one molecule can be calculated by summing the atomic masses of all the atoms in the molecule. For example, the mass of one molecule of carbon dioxide (CO2) is 44 amu (1 carbon atom with a mass of 12 amu and 2 oxygen atoms each with a mass of 16 amu)."
+        "concept": "Tangent Function",
+        "explanation": "In a right triangle, the tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side."
       },
       "question_card": {
-        "question": "What is the mass of one molecule of carbon dioxide (CO2)?",
+        "question": "What is the tangent of an angle in a right triangle?",
         "options": [
-          "28 amu",
-          "32 amu",
-          "44 amu",
-          "48 amu"
+          "Adjacent side / Hypotenuse",
+          "Opposite side / Hypotenuse",
+          "Adjacent side / Opposite side",
+          "Opposite side / Adjacent side"
         ],
-        "correct_option": "3"
+        "correct_option": "Opposite side / Adjacent side"
       }
     },
     {
       "concept_card": {
-        "concept": "Mass of One Mole",
-        "explanation": "The mass of one mole of a substance (molar mass) is the mass of \\(6.022 \\times 10^{23}\\) entities of that substance. For example, the molar mass of water (H2O) is 18 g/mol, meaning one mole of water weighs 18 grams."
+        "concept": "Quadrants",
+        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant is where both x and y are positive, the second quadrant is where x is negative and y is positive, the third quadrant is where both x and y are negative, and the fourth quadrant is where x is positive and y is negative."
       },
       "question_card": {
-        "question": "What is the molar mass of water (H2O)?",
+        "question": "In which quadrant are both x and y coordinates positive?",
         "options": [
-          "16 g/mol",
-          "18 g/mol",
-          "20 g/mol",
-          "22 g/mol"
+          "First quadrant",
+          "Second quadrant",
+          "Third quadrant",
+          "Fourth quadrant"
         ],
-        "correct_option": "2"
+        "correct_option": "First quadrant"
       }
     },
     {
       "concept_card": {
-        "concept": "Calculating Number of Atoms",
-        "explanation": "To calculate the number of atoms in a given mass of an element, divide the mass by the molar mass and multiply by Avogadro's number. For example, to find the number of atoms in 40 grams of helium (molar mass = 4 g/mol), divide 40 by 4 and multiply by \\(6.022 \\times 10^{23}\\)."
+        "concept": "Reference Angles",
+        "explanation": "A reference angle is the smallest angle that the terminal side of a given angle makes with the x-axis."
       },
       "question_card": {
-        "question": "How many atoms are there in 40 grams of helium (molar mass = 4 g/mol)?",
+        "question": "What is a reference angle?",
         "options": [
-          "\\(6.022 \\times 10^{22}\\)",
-          "\\(6.022 \\times 10^{23}\\)",
-          "\\(12.044 \\times 10^{23}\\)",
-          "\\(24.088 \\times 10^{23}\\)"
+          "An angle that measures 90 degrees",
+          "The smallest angle that the terminal side of a given angle makes with the x-axis",
+          "An angle that measures 180 degrees",
+          "An angle formed by two perpendicular lines"
         ],
-        "correct_option": "3"
+        "correct_option": "The smallest angle that the terminal side of a given angle makes with the x-axis"
       }
     },
     {
       "concept_card": {
-        "concept": "Calculating Moles from Mass",
-        "explanation": "To calculate the number of moles from a given mass, divide the mass by the molar mass. For example, to find the number of moles in 88 grams of carbon dioxide (molar mass = 44 g/mol), divide 88 by 44."
+        "concept": "ASTC Rule",
+        "explanation": "The ASTC rule helps to remember the signs of trigonometric functions in different quadrants: All Students Take Calculus. In the first quadrant, all are positive; in the second, sine is positive; in the third, tangent is positive; and in the fourth, cosine is positive."
       },
       "question_card": {
-        "question": "How many moles are there in 88 grams of carbon dioxide (molar mass = 44 g/mol)?",
+        "question": "According to the ASTC rule, which trigonometric function is positive in the third quadrant?",
         "options": [
-          "1 mole",
-          "2 moles",
-          "3 moles",
-          "4 moles"
+          "Sine",
+          "Cosine",
+          "Tangent",
+          "Secant"
         ],
-        "correct_option": "2"
+        "correct_option": "Tangent"
       }
     }
   ]
