@@ -65,7 +65,7 @@ elif platform == "litellm":
 
 download_lecture(
     save_path="video",
-    link="https://dysg3c97clm9i.cloudfront.net/88e2f03c-4ec2-42ff-8cf5-33452cfab4c6/mp4_muxing/88e2f03c-4ec2-42ff-8cf5-33452cfab4c6_720p.mp4",
+    link="https://dat7q2xq1rx4f.cloudfront.net/486b7dca-90a6-4e8d-800f-31bb02fa7bb9.mp4",
     filename="vid1.mp4",
 )
 
