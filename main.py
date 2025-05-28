@@ -78,37 +78,37 @@ if speech_model is None:
         "No speech model is configured. Please check your environment variables."
     )
 
-# '''
-# Generate transcript from the video file using the speech client
-# '''
-# transcript = get_audio_transcript(
-#     video_path="video/vid1.mp4",
-#     audio_folder="audio",
-#     audiofile="vid1",
-#     client=speech_client,
-#     model=speech_model,
-#     verbose=False,
-# )
+'''
+Generate transcript from the video file using the speech client
+'''
+transcript = get_audio_transcript(
+    video_path="video/vid1.mp4",
+    audio_folder="audio",
+    audiofile="vid1",
+    client=speech_client,
+    model=speech_model,
+    verbose=False,
+)
 
-# '''
-# Save the generated transcript to a file
-# '''
-# transcript_file = "transcript.txt"
-# with open(transcript_file, "w", encoding="utf-8") as f:
-#     if isinstance(transcript, dict):
-#         f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
-#     else:
-#         f.write(transcript)
-
-'''load transcript from file if already generated'''
+'''
+Save the generated transcript to a file
+'''
 transcript_file = "transcript.txt"
-if os.path.exists(transcript_file):
-    with open(transcript_file, "r", encoding="utf-8") as f:
-        transcript = f.read()
-else:
-    raise FileNotFoundError(
-        f"Transcript file {transcript_file} not found. Please generate the transcript first."
-    )
+with open(transcript_file, "w", encoding="utf-8") as f:
+    if isinstance(transcript, dict):
+        f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
+    else:
+        f.write(transcript)
+
+# '''load transcript from file if already generated'''
+# transcript_file = "transcript.txt"
+# if os.path.exists(transcript_file):
+#     with open(transcript_file, "r", encoding="utf-8") as f:
+#         transcript = f.read()
+# else:
+#     raise FileNotFoundError(
+#         f"Transcript file {transcript_file} not found. Please generate the transcript first."
+#     )
 
 lecture_notes_file = "lecture_notes/vid1.pdf"
 
