@@ -78,37 +78,37 @@ if speech_model is None:
         "No speech model is configured. Please check your environment variables."
     )
 
-'''
-Generate transcript from the video file using the speech client
-'''
-transcript = get_audio_transcript(
-    video_path="video/vid1.mp4",
-    audio_folder="audio",
-    audiofile="vid1",
-    client=speech_client,
-    model=speech_model,
-    verbose=False,
-)
+# '''
+# Generate transcript from the video file using the speech client
+# '''
+# transcript = get_audio_transcript(
+#     video_path="video/vid1.mp4",
+#     audio_folder="audio",
+#     audiofile="vid1",
+#     client=speech_client,
+#     model=speech_model,
+#     verbose=False,
+# )
 
-'''
-Save the generated transcript to a file
-'''
-transcript_file = "transcript.txt"
-with open(transcript_file, "w", encoding="utf-8") as f:
-    if isinstance(transcript, dict):
-        f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
-    else:
-        f.write(transcript)
+# '''
+# Save the generated transcript to a file
+# '''
+# transcript_file = "transcript.txt"
+# with open(transcript_file, "w", encoding="utf-8") as f:
+#     if isinstance(transcript, dict):
+#         f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
+#     else:
+#         f.write(transcript)
 
 '''load transcript from file if already generated'''
-# transcript_file = "transcript.txt"
-# if os.path.exists(transcript_file):
-#     with open(transcript_file, "r", encoding="utf-8") as f:
-#         transcript = f.read()
-# else:
-#     raise FileNotFoundError(
-#         f"Transcript file {transcript_file} not found. Please generate the transcript first."
-#     )
+transcript_file = "transcript.txt"
+if os.path.exists(transcript_file):
+    with open(transcript_file, "r", encoding="utf-8") as f:
+        transcript = f.read()
+else:
+    raise FileNotFoundError(
+        f"Transcript file {transcript_file} not found. Please generate the transcript first."
+    )
 
 lecture_notes_file = "lecture_notes/vid1.pdf"
 
@@ -173,7 +173,7 @@ def generate_flashcards(
 
     prompt = f"""Generate 10 flashcards from the lecture below. There are two types of flashcards: 
 1. concept_card - explains a core idea for student friendly revision, *Always* use latex for mathematical expressions, chemical equations or other relevant things. 
-2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Options should directly contain the option without any serial number (like 1,2,3,4 or A,B,C,D). Correct option should be one of the option numbers (1, 2, 3, or 4).
+2. question_card - asks a quiz-style question with an answer. Questions should be multiple choice with 4 options, and the correct answer should be included. Options should directly contain the option without any serial number (like 1,2,3,4 or A,B,C,D). Correct option should be one of the option numbers (1, 2, 3, or 4). *Only put the correct option number in the correct_option field, not the option text*.
 
 Lecture transcript: {transcript}
 Lecture notes: {notes}"""

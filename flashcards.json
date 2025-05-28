@@ -3,17 +3,17 @@
     {
       "concept_card": {
         "concept": "Angle",
-        "explanation": "An angle is formed when two rays originate from a common point. It is usually denoted by \\(\\theta\\)."
+        "explanation": "An angle is formed when two rays or lines meet at a common point. It is usually measured in degrees or radians."
       },
       "question_card": {
-        "question": "What is the measure of an angle formed by two rays originating from a common point?",
+        "question": "What is the measure of an angle formed by two rays meeting at a common point?",
         "options": [
           "0 degrees",
           "90 degrees",
-          "180 degrees",
-          "It can be any measure"
+          "It can be any measure",
+          "180 degrees"
         ],
-        "correct_option": "It can be any measure"
+        "correct_option": "3"
       }
     },
     {
@@ -22,142 +22,142 @@
         "explanation": "Angles measured counterclockwise from the positive x-axis are positive, while angles measured clockwise are negative."
       },
       "question_card": {
-        "question": "If an angle is measured clockwise from the positive x-axis, what is its sign?",
+        "question": "What is the measure of an angle measured clockwise from the positive x-axis?",
         "options": [
           "Positive",
           "Negative",
           "Zero",
-          "Undefined"
+          "It can be either"
         ],
-        "correct_option": "Negative"
+        "correct_option": "2"
       }
     },
     {
       "concept_card": {
-        "concept": "Radian",
-        "explanation": "A radian is the angle made at the center of a circle by an arc whose length is equal to the radius of the circle."
+        "concept": "Radians",
+        "explanation": "A radian is the angle made by taking the radius and wrapping it along the circle's edge. One full circle is 2π radians."
       },
       "question_card": {
-        "question": "What is the definition of a radian?",
+        "question": "How many radians are in a full circle?",
         "options": [
-          "An angle that measures 90 degrees",
-          "An angle formed by two perpendicular lines",
-          "An angle made at the center of a circle by an arc whose length is equal to the radius",
-          "An angle that measures 180 degrees"
+          "π radians",
+          "2π radians",
+          "180 radians",
+          "360 radians"
         ],
-        "correct_option": "An angle made at the center of a circle by an arc whose length is equal to the radius"
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Conversion between Degrees and Radians",
-        "explanation": "To convert degrees to radians, multiply by \\(\\frac{\\pi}{180}\\). To convert radians to degrees, multiply by \\(\\frac{180}{\\pi}\\)."
-      },
-      "question_card": {
-        "question": "How do you convert 180 degrees to radians?",
-        "options": [
-          "\\(\\frac{\\pi}{2}\\)",
-          "\\(\\pi\\)",
-          "\\(2\\pi\\)",
-          "\\(\\frac{\\pi}{4}\\)"
-        ],
-        "correct_option": "\\(\\pi\\)"
+        "correct_option": "2"
       }
     },
     {
       "concept_card": {
         "concept": "Sine Function",
-        "explanation": "In a right triangle, the sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse."
+        "explanation": "The sine function relates an angle of a right triangle to the ratio of the length of the opposite side to the hypotenuse. It is written as sin(θ)."
       },
       "question_card": {
-        "question": "What is the sine of an angle in a right triangle?",
+        "question": "What is the sine of a 90-degree angle?",
         "options": [
-          "Adjacent side / Hypotenuse",
-          "Opposite side / Hypotenuse",
-          "Adjacent side / Opposite side",
-          "Hypotenuse / Opposite side"
+          "0",
+          "1",
+          "-1",
+          "Undefined"
         ],
-        "correct_option": "Opposite side / Hypotenuse"
+        "correct_option": "2"
       }
     },
     {
       "concept_card": {
         "concept": "Cosine Function",
-        "explanation": "In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse."
+        "explanation": "The cosine function relates an angle of a right triangle to the ratio of the length of the adjacent side to the hypotenuse. It is written as cos(θ)."
       },
       "question_card": {
-        "question": "What is the cosine of an angle in a right triangle?",
+        "question": "What is the cosine of a 0-degree angle?",
         "options": [
-          "Adjacent side / Hypotenuse",
-          "Opposite side / Hypotenuse",
-          "Adjacent side / Opposite side",
-          "Hypotenuse / Opposite side"
+          "0",
+          "1",
+          "-1",
+          "Undefined"
         ],
-        "correct_option": "Adjacent side / Hypotenuse"
+        "correct_option": "2"
       }
     },
     {
       "concept_card": {
         "concept": "Tangent Function",
-        "explanation": "In a right triangle, the tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side."
+        "explanation": "The tangent function relates an angle of a right triangle to the ratio of the length of the opposite side to the adjacent side. It is written as tan(θ)."
       },
       "question_card": {
-        "question": "What is the tangent of an angle in a right triangle?",
+        "question": "What is the tangent of a 45-degree angle?",
         "options": [
-          "Adjacent side / Hypotenuse",
-          "Opposite side / Hypotenuse",
-          "Adjacent side / Opposite side",
-          "Opposite side / Adjacent side"
+          "0",
+          "1",
+          "-1",
+          "Undefined"
         ],
-        "correct_option": "Opposite side / Adjacent side"
+        "correct_option": "2"
       }
     },
     {
       "concept_card": {
         "concept": "Quadrants",
-        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant is where both x and y are positive, the second quadrant is where x is negative and y is positive, the third quadrant is where both x and y are negative, and the fourth quadrant is where x is positive and y is negative."
+        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant has positive x and y values, the second has negative x and positive y, the third has negative x and y, and the fourth has positive x and negative y."
       },
       "question_card": {
-        "question": "In which quadrant are both x and y coordinates positive?",
+        "question": "In which quadrant are both x and y coordinates negative?",
         "options": [
           "First quadrant",
           "Second quadrant",
           "Third quadrant",
           "Fourth quadrant"
         ],
-        "correct_option": "First quadrant"
+        "correct_option": "3"
       }
     },
     {
       "concept_card": {
         "concept": "Reference Angles",
-        "explanation": "A reference angle is the smallest angle that the terminal side of a given angle makes with the x-axis."
+        "explanation": "A reference angle is the smallest angle that the terminal side of a given angle makes with the x-axis. It is always positive and less than 90 degrees."
       },
       "question_card": {
-        "question": "What is a reference angle?",
+        "question": "What is the reference angle for a 150-degree angle?",
         "options": [
-          "An angle that measures 90 degrees",
-          "The smallest angle that the terminal side of a given angle makes with the x-axis",
-          "An angle that measures 180 degrees",
-          "An angle formed by two perpendicular lines"
+          "30 degrees",
+          "60 degrees",
+          "90 degrees",
+          "150 degrees"
         ],
-        "correct_option": "The smallest angle that the terminal side of a given angle makes with the x-axis"
+        "correct_option": "1"
       }
     },
     {
       "concept_card": {
-        "concept": "ASTC Rule",
-        "explanation": "The ASTC rule helps to remember the signs of trigonometric functions in different quadrants: All Students Take Calculus. In the first quadrant, all are positive; in the second, sine is positive; in the third, tangent is positive; and in the fourth, cosine is positive."
+        "concept": "Unit Circle",
+        "explanation": "The unit circle is a circle with a radius of 1 centered at the origin of the coordinate plane. It is used to define trigonometric functions."
       },
       "question_card": {
-        "question": "According to the ASTC rule, which trigonometric function is positive in the third quadrant?",
+        "question": "What is the radius of the unit circle?",
         "options": [
-          "Sine",
-          "Cosine",
-          "Tangent",
-          "Secant"
+          "0",
+          "1",
+          "π",
+          "2π"
         ],
-        "correct_option": "Tangent"
+        "correct_option": "2"
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Trigonometric Identities",
+        "explanation": "Trigonometric identities are equations involving trigonometric functions that are true for all values of the variables involved. Examples include sin²(θ) + cos²(θ) = 1."
+      },
+      "question_card": {
+        "question": "Which of the following is a trigonometric identity?",
+        "options": [
+          "sin(θ) + cos(θ) = 1",
+          "sin²(θ) + cos²(θ) = 1",
+          "tan(θ) = sin(θ) / cos(θ)",
+          "sin(2θ) = 2sin(θ)cos(θ)"
+        ],
+        "correct_option": "2"
       }
     }
   ]
