@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Unit Vectors",
+        "explanation": "Unit vectors are vectors with a magnitude of 1. They are used to indicate direction only. Common unit vectors include i-cap, j-cap, and k-cap, which represent the x, y, and z directions respectively."
+      },
+      "question_card": {
+        "question": "What is the magnitude of a unit vector?",
+        "options": [
+          "0",
+          "1",
+          "Depends on the vector",
+          "Infinity"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Magnitude of a Vector",
+        "explanation": "The magnitude of a vector is the length of the vector. For a vector given by r = xi + yj + zk, the magnitude is calculated as √(x² + y² + z²)."
+      },
+      "question_card": {
+        "question": "How do you calculate the magnitude of a vector r = 3i + 4j?",
+        "options": [
+          "5",
+          "7",
+          "1",
+          "√(3² + 4²)"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Resolution of Vectors",
+        "explanation": "Resolution of vectors involves breaking down a vector into its components along the x and y axes. For a vector A making an angle θ with the x-axis, the components are A cos(θ) along the x-axis and A sin(θ) along the y-axis."
+      },
+      "question_card": {
+        "question": "If a vector A makes an angle of 45° with the x-axis, what are its components?",
+        "options": [
+          "A cos(45°) along x and A sin(45°) along y",
+          "A sin(45°) along x and A cos(45°) along y",
+          "A cos(45°) along y and A sin(45°) along x",
+          "A sin(45°) along y and A cos(45°) along x"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Equal Vectors",
+        "explanation": "Equal vectors have the same magnitude and direction. For example, vectors A = 3i + 4j and B = 3i + 4j are equal."
+      },
+      "question_card": {
+        "question": "Which of the following pairs of vectors are equal?",
+        "options": [
+          "3i + 4j and 4i + 3j",
+          "3i + 4j and 3i + 4j",
+          "3i + 4j and -3i - 4j",
+          "3i + 4j and 3i - 4j"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Negative Vectors",
+        "explanation": "Negative vectors have the same magnitude but opposite direction. For example, if A = 3i + 4j, then -A = -3i - 4j."
+      },
+      "question_card": {
+        "question": "What is the negative vector of A = 5i + 2j?",
+        "options": [
+          "-5i + 2j",
+          "5i - 2j",
+          "-5i - 2j",
+          "5i + 2j"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Parallel Vectors",
+        "explanation": "Parallel vectors have the same or proportional direction but may have different magnitudes. For example, vectors A = 2i + 3j and B = 4i + 6j are parallel."
+      },
+      "question_card": {
+        "question": "Which of the following pairs of vectors are parallel?",
+        "options": [
+          "2i + 3j and 3i + 2j",
+          "2i + 3j and 4i + 6j",
+          "2i + 3j and -2i - 3j",
+          "2i + 3j and 2i - 3j"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Orthogonal Vectors",
+        "explanation": "Orthogonal (or perpendicular) vectors are vectors that meet at a right angle (90 degrees). For example, vectors A = i and B = j are orthogonal."
+      },
+      "question_card": {
+        "question": "What is the angle between orthogonal vectors?",
+        "options": [
+          "0 degrees",
+          "45 degrees",
+          "90 degrees",
+          "180 degrees"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Co-initial Vectors",
+        "explanation": "Co-initial vectors are vectors that start from the same point. For example, vectors A and B both starting from the origin are co-initial."
+      },
+      "question_card": {
+        "question": "What are co-initial vectors?",
+        "options": [
+          "Vectors with the same magnitude",
+          "Vectors with the same direction",
+          "Vectors that start from the same point",
+          "Vectors that are perpendicular"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Zero Vector",
+        "explanation": "A zero vector has a magnitude of zero and an undefined direction. It is represented as 0i + 0j + 0k."
+      },
+      "question_card": {
+        "question": "What is the direction of a zero vector?",
+        "options": [
+          "x-direction",
+          "y-direction",
+          "z-direction",
+          "Undefined"
+        ],
+        "correct_option": 4
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Unit Vector Calculation",
+        "explanation": "To find the unit vector in the direction of a given vector A, divide the vector by its magnitude. For example, if A = 3i + 4j, the unit vector is (3i + 4j) / 5."
+      },
+      "question_card": {
+        "question": "What is the unit vector of A = 6i + 8j?",
+        "options": [
+          "6i + 8j",
+          "(6i + 8j) / 10",
+          "(6i + 8j) / 2",
+          "(6i + 8j) / √(6² + 8²)"
+        ],
+        "correct_option": 2
+      }
+    }
+  ]
+}
