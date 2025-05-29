@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Parallelogram Law of Vector Addition",
+        "explanation": "The parallelogram law of vector addition states that if two vectors are represented as two adjacent sides of a parallelogram, then their sum is represented by the diagonal of the parallelogram that starts from the same point. Mathematically, if \\(\\vec{A}\\) and \\(\\vec{B}\\) are two vectors, their resultant \\(\\vec{R}\\) is given by: \\[ \\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\cos \\theta} \\] where \\(\\theta\\) is the angle between \\(\\vec{A}\\) and \\(\\vec{B}\\)."
+      },
+      "question_card": {
+        "question": "What is the formula for the resultant vector \\(\\vec{R}\\) using the parallelogram law of vector addition?",
+        "options": [
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 - 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 - B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\sin \\theta}\\)"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Vector Subtraction",
+        "explanation": "Vector subtraction can be understood as the addition of a negative vector. If \\(\\vec{A}\\) and \\(\\vec{B}\\) are two vectors, then \\(\\vec{A} - \\vec{B}\\) is the same as \\(\\vec{A} + (-\\vec{B})\\)."
+      },
+      "question_card": {
+        "question": "How can vector subtraction be represented?",
+        "options": [
+          "\\(\\vec{A} - \\vec{B} = \\vec{A} + \\vec{B}\\)",
+          "\\(\\vec{A} - \\vec{B} = \\vec{A} + (-\\vec{B})\\)",
+          "\\(\\vec{A} - \\vec{B} = -\\vec{A} + \\vec{B}\\)",
+          "\\(\\vec{A} - \\vec{B} = -\\vec{A} - \\vec{B}\\)"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Resultant of Perpendicular Vectors",
+        "explanation": "When two vectors are perpendicular to each other, the resultant vector can be found using the Pythagorean theorem. If \\(\\vec{A}\\) and \\(\\vec{B}\\) are perpendicular, the magnitude of the resultant vector \\(\\vec{R}\\) is given by: \\[ R = \\sqrt{A^2 + B^2} \\]"
+      },
+      "question_card": {
+        "question": "What is the magnitude of the resultant vector when two vectors are perpendicular to each other?",
+        "options": [
+          "\\( R = A + B \\)",
+          "\\( R = \\sqrt{A^2 + B^2} \\)",
+          "\\( R = \\sqrt{A^2 - B^2} \\)",
+          "\\( R = A - B \\)"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Angle Between Vectors",
+        "explanation": "The angle \\(\\theta\\) between two vectors \\(\\vec{A}\\) and \\(\\vec{B}\\) can be found using the dot product formula: \\[ \\cos \\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{AB} \\]"
+      },
+      "question_card": {
+        "question": "How can the angle between two vectors be determined?",
+        "options": [
+          "Using the cross product",
+          "Using the dot product",
+          "Using the magnitude of the vectors",
+          "Using the parallelogram law"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Properties of Parallelogram",
+        "explanation": "In a parallelogram, opposite sides are equal in length and opposite angles are equal. The diagonals bisect each other, and the sum of the squares of the sides equals the sum of the squares of the diagonals."
+      },
+      "question_card": {
+        "question": "Which of the following is true about a parallelogram?",
+        "options": [
+          "Opposite sides are unequal",
+          "Diagonals do not bisect each other",
+          "Opposite angles are equal",
+          "Sum of the squares of the sides is less than the sum of the squares of the diagonals"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Vector Components",
+        "explanation": "A vector can be broken down into its components along the x and y axes. If \\(\\vec{A}\\) is a vector, its components are \\(A_x = A \\cos \\theta\\) and \\(A_y = A \\sin \\theta\\), where \\(\\theta\\) is the angle the vector makes with the x-axis."
+      },
+      "question_card": {
+        "question": "What are the components of a vector \\(\\vec{A}\\) along the x and y axes?",
+        "options": [
+          "\\(A_x = A \\sin \\theta\\) and \\(A_y = A \\cos \\theta\\)",
+          "\\(A_x = A \\cos \\theta\\) and \\(A_y = A \\sin \\theta\\)",
+          "\\(A_x = A \\sin \\theta\\) and \\(A_y = A \\sin \\theta\\)",
+          "\\(A_x = A \\cos \\theta\\) and \\(A_y = A \\cos \\theta\\)"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Pythagorean Theorem in Vector Addition",
+        "explanation": "The Pythagorean theorem can be used to find the magnitude of the resultant vector when two vectors are perpendicular. If \\(\\vec{A}\\) and \\(\\vec{B}\\) are perpendicular, then \\( R = \\sqrt{A^2 + B^2} \\)."
+      },
+      "question_card": {
+        "question": "Which theorem is used to find the magnitude of the resultant vector when two vectors are perpendicular?",
+        "options": [
+          "Parallelogram law",
+          "Dot product",
+          "Cross product",
+          "Pythagorean theorem"
+        ],
+        "correct_option": 4
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Resultant of Two Vectors",
+        "explanation": "The resultant of two vectors \\(\\vec{A}\\) and \\(\\vec{B}\\) can be found using the formula: \\[ \\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\cos \\theta} \\] where \\(\\theta\\) is the angle between the vectors."
+      },
+      "question_card": {
+        "question": "What is the formula for the resultant of two vectors \\(\\vec{A}\\) and \\(\\vec{B}\\)?",
+        "options": [
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 - 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 - B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{R} = \\sqrt{A^2 + B^2 + 2AB \\sin \\theta}\\)"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Geometric Interpretation of Vector Addition",
+        "explanation": "Vector addition can be interpreted geometrically using the triangle method or the parallelogram method. In the triangle method, the vectors are placed head to tail, and the resultant vector is drawn from the tail of the first vector to the head of the second vector."
+      },
+      "question_card": {
+        "question": "How is the resultant vector drawn in the triangle method of vector addition?",
+        "options": [
+          "From the head of the first vector to the tail of the second vector",
+          "From the tail of the first vector to the head of the second vector",
+          "From the tail of the second vector to the head of the first vector",
+          "From the head of the second vector to the tail of the first vector"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Parallelogram Law of Vector Subtraction",
+        "explanation": "The parallelogram law of vector subtraction states that if two vectors are represented as two adjacent sides of a parallelogram, then their difference is represented by the diagonal of the parallelogram that starts from the same point but points in the opposite direction. Mathematically, if \\(\\vec{A}\\) and \\(\\vec{B}\\) are two vectors, their difference \\(\\vec{D}\\) is given by: \\[ \\vec{D} = \\sqrt{A^2 + B^2 - 2AB \\cos \\theta} \\] where \\(\\theta\\) is the angle between \\(\\vec{A}\\) and \\(\\vec{B}\\)."
+      },
+      "question_card": {
+        "question": "What is the formula for the difference vector \\(\\vec{D}\\) using the parallelogram law of vector subtraction?",
+        "options": [
+          "\\(\\vec{D} = \\sqrt{A^2 + B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{D} = \\sqrt{A^2 + B^2 - 2AB \\cos \\theta}\\)",
+          "\\(\\vec{D} = \\sqrt{A^2 - B^2 + 2AB \\cos \\theta}\\)",
+          "\\(\\vec{D} = \\sqrt{A^2 + B^2 + 2AB \\sin \\theta}\\)"
+        ],
+        "correct_option": 2
+      }
+    }
+  ]
+}

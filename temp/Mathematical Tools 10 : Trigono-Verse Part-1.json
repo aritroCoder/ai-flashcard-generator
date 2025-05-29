@@ -3,15 +3,15 @@
     {
       "concept_card": {
         "concept": "Angle",
-        "explanation": "An angle is formed when two lines or rays meet at a common point. It is usually measured in degrees (°) or radians (rad). In trigonometry, angles can be positive or negative depending on their direction of measurement."
+        "explanation": "An angle is formed when two rays meet at a common endpoint. It is measured in degrees or radians."
       },
       "question_card": {
-        "question": "What is an angle?",
+        "question": "What is formed when two rays meet at a common endpoint?",
         "options": [
-          "The distance between two points",
-          "The measure of rotation between two intersecting lines or rays",
-          "The length of a line segment",
-          "The area of a triangle"
+          "Line",
+          "Angle",
+          "Circle",
+          "Square"
         ],
         "correct_option": 2
       }
@@ -19,145 +19,145 @@
     {
       "concept_card": {
         "concept": "Positive and Negative Angles",
-        "explanation": "In trigonometry, angles measured counterclockwise from the positive x-axis are considered positive, while angles measured clockwise are considered negative."
+        "explanation": "Angles measured counterclockwise from the positive x-axis are positive, while those measured clockwise are negative."
       },
       "question_card": {
-        "question": "How is a negative angle measured in trigonometry?",
+        "question": "How are angles measured counterclockwise from the positive x-axis classified?",
         "options": [
-          "Counterclockwise from the positive x-axis",
-          "Clockwise from the positive x-axis",
-          "From the negative x-axis",
-          "From the origin"
+          "Negative",
+          "Zero",
+          "Positive",
+          "Undefined"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "SI Unit of Angle",
+        "explanation": "The SI unit for measuring angles is the radian. It is based on the radius of a circle."
+      },
+      "question_card": {
+        "question": "What is the SI unit for measuring angles?",
+        "options": [
+          "Degree",
+          "Radian",
+          "Meter",
+          "Second"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Radians",
-        "explanation": "A radian is the standard unit of angular measure used in many areas of mathematics. One radian is the angle created when the length of the arc is equal to the radius of the circle."
+        "concept": "Angle Proportionality",
+        "explanation": "The angle in a circle is proportional to the length of the arc. Larger angles correspond to longer arcs."
       },
       "question_card": {
-        "question": "What is a radian?",
+        "question": "What is the relationship between an angle in a circle and the length of the arc?",
         "options": [
-          "The angle formed when the length of the arc is equal to the radius of the circle",
-          "The angle formed by a full circle",
-          "The angle formed by a semicircle",
-          "The angle formed by a quarter circle"
+          "Inverse",
+          "Direct",
+          "No relation",
+          "Exponential"
         ],
-        "correct_option": 1
+        "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Conversion between Degrees and Radians",
-        "explanation": "To convert degrees to radians, multiply by \\( \\frac{\\pi}{180} \\). To convert radians to degrees, multiply by \\( \\frac{180}{\\pi} \\)."
+        "concept": "Circumference of a Circle",
+        "explanation": "The circumference of a circle is given by the formula 2πr, where r is the radius."
       },
       "question_card": {
-        "question": "How do you convert 90 degrees to radians?",
+        "question": "What is the formula for the circumference of a circle?",
         "options": [
-          "\\( \\frac{\\pi}{2} \\)",
-          "\\( \\frac{\\pi}{3} \\)",
-          "\\( \\frac{\\pi}{4} \\)",
-          "\\( \\frac{\\pi}{6} \\)"
+          "πr^2",
+          "2πr",
+          "πd",
+          "r^2"
         ],
-        "correct_option": 1
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Radians to Degrees Conversion",
+        "explanation": "To convert radians to degrees, multiply by 180/π."
+      },
+      "question_card": {
+        "question": "How do you convert radians to degrees?",
+        "options": [
+          "Multiply by π/180",
+          "Multiply by 180/π",
+          "Multiply by 2π",
+          "Multiply by π"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Trigonometric Functions",
+        "explanation": "Trigonometric functions like sine, cosine, and tangent are used to relate the angles of a triangle to its sides."
+      },
+      "question_card": {
+        "question": "Which trigonometric function relates the opposite side to the hypotenuse?",
+        "options": [
+          "Cosine",
+          "Tangent",
+          "Sine",
+          "Secant"
+        ],
+        "correct_option": 3
       }
     },
     {
       "concept_card": {
         "concept": "Quadrants",
-        "explanation": "The coordinate plane is divided into four quadrants. The first quadrant is where both x and y are positive, the second quadrant is where x is negative and y is positive, the third quadrant is where both x and y are negative, and the fourth quadrant is where x is positive and y is negative."
+        "explanation": "The coordinate plane is divided into four quadrants. The sign of trigonometric functions varies in each quadrant."
       },
       "question_card": {
-        "question": "In which quadrant is the angle 135 degrees?",
+        "question": "In which quadrant are both sine and cosine positive?",
         "options": [
           "First",
           "Second",
           "Third",
           "Fourth"
         ],
-        "correct_option": 2
+        "correct_option": 1
       }
     },
     {
       "concept_card": {
-        "concept": "Sine Function",
-        "explanation": "The sine function (sin) relates the angle of a right triangle to the ratio of the length of the opposite side to the hypotenuse. It is periodic with a period of \\(2\\pi\\)."
+        "concept": "Reference Angles",
+        "explanation": "Reference angles are the smallest angles formed by the terminal side of an angle and the x-axis."
       },
       "question_card": {
-        "question": "What is the sine of 90 degrees?",
+        "question": "What is a reference angle?",
+        "options": [
+          "The smallest angle formed by the terminal side and the x-axis",
+          "An angle greater than 180 degrees",
+          "An angle less than 90 degrees",
+          "An angle equal to 360 degrees"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Unit Circle",
+        "explanation": "The unit circle is a circle with a radius of 1 centered at the origin. It is used to define trigonometric functions."
+      },
+      "question_card": {
+        "question": "What is the radius of the unit circle?",
         "options": [
           "0",
           "1",
-          "-1",
-          "\\( \\frac{1}{2} \\)"
+          "2",
+          "π"
         ],
         "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Cosine Function",
-        "explanation": "The cosine function (cos) relates the angle of a right triangle to the ratio of the length of the adjacent side to the hypotenuse. It is periodic with a period of \\(2\\pi\\)."
-      },
-      "question_card": {
-        "question": "What is the cosine of 0 degrees?",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "\\( \\frac{1}{2} \\)"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Tangent Function",
-        "explanation": "The tangent function (tan) relates the angle of a right triangle to the ratio of the length of the opposite side to the adjacent side. It is periodic with a period of \\(\\pi\\)."
-      },
-      "question_card": {
-        "question": "What is the tangent of 45 degrees?",
-        "options": [
-          "0",
-          "1",
-          "-1",
-          "\\( \\frac{1}{2} \\)"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Sine and Cosine in Different Quadrants",
-        "explanation": "In the first quadrant, both sine and cosine are positive. In the second quadrant, sine is positive and cosine is negative. In the third quadrant, both sine and cosine are negative. In the fourth quadrant, sine is negative and cosine is positive."
-      },
-      "question_card": {
-        "question": "In which quadrant is the cosine function negative?",
-        "options": [
-          "First and Second",
-          "Second and Third",
-          "Third and Fourth",
-          "First and Fourth"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Special Angles",
-        "explanation": "Special angles such as 0°, 30°, 45°, 60°, and 90° have known sine, cosine, and tangent values that are often used in trigonometry."
-      },
-      "question_card": {
-        "question": "What is the sine of 30 degrees?",
-        "options": [
-          "0",
-          "1",
-          "\\( \\frac{1}{2} \\)",
-          "\\( \\frac{\\sqrt{3}}{2} \\)"
-        ],
-        "correct_option": 3
       }
     }
   ]

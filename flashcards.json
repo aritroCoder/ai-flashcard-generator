@@ -2,162 +2,162 @@
   "flashcards": [
     {
       "concept_card": {
-        "concept": "Multicellularity",
-        "explanation": "Multicellularity refers to organisms whose bodies are made up of many cells. These cells work together to perform various functions necessary for the organism's survival. For example, humans are multicellular organisms."
+        "concept": "Mole Concept",
+        "explanation": "The mole is a numerical prefix used in chemistry to represent a large quantity of particles. One mole is equal to 6.022 x 10^23 particles, also known as Avogadro's number."
       },
       "question_card": {
-        "question": "What does multicellularity mean?",
+        "question": "How many particles are there in one mole?",
         "options": [
-          "Organisms with a single cell",
-          "Organisms with many cells",
-          "Organisms that produce their own food",
-          "Organisms that do not need food"
+          "6.022 x 10^22",
+          "6.022 x 10^23",
+          "6.022 x 10^24",
+          "6.022 x 10^25"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Heterotrophs",
-        "explanation": "Heterotrophs are organisms that depend on other organisms for food. They cannot produce their own food like plants do through photosynthesis. All animals, including humans, are heterotrophs."
+        "concept": "Atomic Mass and Molar Mass",
+        "explanation": "Atomic mass is the mass of a single atom, usually expressed in atomic mass units (amu). Molar mass is the mass of one mole of a substance, expressed in grams per mole (g/mol)."
       },
       "question_card": {
-        "question": "What are heterotrophs?",
+        "question": "What is the molar mass of oxygen if its atomic mass is 16 amu?",
         "options": [
-          "Organisms that produce their own food",
-          "Organisms that depend on others for food",
-          "Organisms that do not need food",
-          "Organisms that live in water"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Holozoic Nutrition",
-        "explanation": "Holozoic nutrition is a mode of nutrition in which organisms ingest solid food and then digest it. This is typical of animals, including humans."
-      },
-      "question_card": {
-        "question": "What is holozoic nutrition?",
-        "options": [
-          "Ingesting and digesting solid food",
-          "Absorbing nutrients from water",
-          "Producing food through photosynthesis",
-          "Living without food"
+          "16 g/mol",
+          "32 g/mol",
+          "8 g/mol",
+          "16 amu"
         ],
         "correct_option": 1
       }
     },
     {
       "concept_card": {
-        "concept": "Unicellular Organisms",
-        "explanation": "Unicellular organisms are made up of a single cell that performs all the functions necessary for the organism's survival, such as digestion, respiration, and reproduction. Examples include amoeba and paramecium."
+        "concept": "Significant Figures",
+        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. This includes all non-zero digits, any zeros between significant digits, and any trailing zeros in the decimal portion."
       },
       "question_card": {
-        "question": "What are unicellular organisms?",
+        "question": "How many significant figures are in the number 0.004560?",
         "options": [
-          "Organisms with many cells",
-          "Organisms with a single cell",
-          "Organisms that produce their own food",
-          "Organisms that live in colonies"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Intercellular Substance",
-        "explanation": "Intercellular substance, also known as extracellular substance, is the material found between cells. It helps in providing support and structure to tissues."
-      },
-      "question_card": {
-        "question": "What is intercellular substance?",
-        "options": [
-          "Material inside the cell",
-          "Material between cells",
-          "Material that makes up the cell membrane",
-          "Material that cells produce to fight infections"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Tissues",
-        "explanation": "Tissues are groups of similar cells that work together to perform a specific function. For example, muscle tissue is made up of muscle cells that work together to produce movement."
-      },
-      "question_card": {
-        "question": "What are tissues?",
-        "options": [
-          "Groups of different cells performing various functions",
-          "Groups of similar cells performing a specific function",
-          "Single cells performing all functions",
-          "Cells that do not perform any function"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Division of Labour in Multicellular Organisms",
-        "explanation": "In multicellular organisms, different cells perform different functions. This division of labour makes the organism more efficient. For example, in humans, muscle cells help in movement, while nerve cells help in transmitting signals."
-      },
-      "question_card": {
-        "question": "What is the division of labour in multicellular organisms?",
-        "options": [
-          "All cells perform all functions",
-          "Different cells perform different functions",
-          "Cells do not perform any function",
-          "Cells perform functions randomly"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Examples of Multicellular Organisms",
-        "explanation": "Examples of multicellular organisms include humans, frogs, snakes, and hydra. These organisms have bodies made up of many cells that work together."
-      },
-      "question_card": {
-        "question": "Which of the following is an example of a multicellular organism?",
-        "options": [
-          "Amoeba",
-          "Paramecium",
-          "Hydra",
-          "Bacteria"
+          "3",
+          "4",
+          "5",
+          "6"
         ],
         "correct_option": 3
       }
     },
     {
       "concept_card": {
-        "concept": "Specific Function of Tissues",
-        "explanation": "Each type of tissue in an organism performs a specific function. For example, epithelial tissue covers body surfaces, while connective tissue supports and binds other tissues."
+        "concept": "Unit Conversion",
+        "explanation": "Unit conversion involves changing the units of a measured quantity without changing its value. This is often done using conversion factors, which are ratios that express how many of one unit are equal to another unit."
       },
       "question_card": {
-        "question": "What is a specific function of tissues?",
+        "question": "Convert 3.2 micrograms to nanograms.",
         "options": [
-          "Performing all functions",
-          "Performing a specific function",
-          "Not performing any function",
-          "Performing random functions"
+          "3200 ng",
+          "320 ng",
+          "32000 ng",
+          "32 ng"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Molecular Mass",
+        "explanation": "Molecular mass is the mass of a single molecule, calculated by summing the atomic masses of all the atoms in the molecule. It is usually expressed in atomic mass units (amu)."
+      },
+      "question_card": {
+        "question": "What is the molecular mass of H2O?",
+        "options": [
+          "18 amu",
+          "16 amu",
+          "20 amu",
+          "2 amu"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Avogadro's Number",
+        "explanation": "Avogadro's number (6.022 x 10^23) is the number of atoms, ions, or molecules in one mole of a substance. It allows chemists to count particles by weighing them."
+      },
+      "question_card": {
+        "question": "What is Avogadro's number?",
+        "options": [
+          "6.022 x 10^22",
+          "6.022 x 10^23",
+          "6.022 x 10^24",
+          "6.022 x 10^25"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Animal Kingdom",
-        "explanation": "The animal kingdom includes all multicellular organisms that are heterotrophic and have complex body structures. Examples include humans, frogs, and snakes."
+        "concept": "Mass of Atoms and Molecules",
+        "explanation": "The mass of an atom or molecule can be expressed in atomic mass units (amu) for individual particles or in grams for moles of particles."
       },
       "question_card": {
-        "question": "What is included in the animal kingdom?",
+        "question": "What is the mass of one mole of carbon atoms if the atomic mass of carbon is 12 amu?",
         "options": [
-          "Unicellular organisms",
-          "Multicellular organisms that produce their own food",
-          "Multicellular organisms that are heterotrophic",
-          "Non-living things"
+          "12 g",
+          "24 g",
+          "6 g",
+          "12 amu"
         ],
-        "correct_option": 3
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Calculating Moles",
+        "explanation": "To calculate the number of moles, divide the given mass of a substance by its molar mass. This is useful for converting between mass and number of particles."
+      },
+      "question_card": {
+        "question": "How many moles are in 36 grams of water (H2O)? (Molar mass of H2O = 18 g/mol)",
+        "options": [
+          "1 mol",
+          "2 mol",
+          "0.5 mol",
+          "3 mol"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mole to Atom Conversion",
+        "explanation": "To convert moles of a substance to atoms, multiply the number of moles by Avogadro's number. This is useful for determining the number of particles in a given amount of substance."
+      },
+      "question_card": {
+        "question": "How many atoms are in 2 moles of helium?",
+        "options": [
+          "6.022 x 10^23 atoms",
+          "1.2044 x 10^24 atoms",
+          "3.011 x 10^23 atoms",
+          "1.2044 x 10^23 atoms"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Chemical Formulas and Molecules",
+        "explanation": "Chemical formulas represent the types and numbers of atoms in a molecule. For example, H2O represents water, which has 2 hydrogen atoms and 1 oxygen atom."
+      },
+      "question_card": {
+        "question": "How many hydrogen atoms are in one molecule of H2SO4?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "correct_option": 2
       }
     }
   ]

@@ -2,160 +2,160 @@
   "flashcards": [
     {
       "concept_card": {
-        "concept": "Significant Figures",
-        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. For example, in the number 0.0006032, there are four significant figures: 6, 0, 3, and 2."
+        "concept": "Mole Concept",
+        "explanation": "The mole is a numerical prefix used in chemistry to represent a large quantity of particles. One mole is equal to 6.022 x 10^23 particles, also known as Avogadro's number."
       },
       "question_card": {
-        "question": "How many significant figures are in the number 0.0006032?",
+        "question": "How many particles are there in one mole?",
+        "options": [
+          "6.022 x 10^22",
+          "6.022 x 10^23",
+          "6.022 x 10^24",
+          "6.022 x 10^25"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Atomic Mass and Molar Mass",
+        "explanation": "Atomic mass is the mass of a single atom, usually expressed in atomic mass units (amu). Molar mass is the mass of one mole of a substance, expressed in grams per mole (g/mol)."
+      },
+      "question_card": {
+        "question": "What is the molar mass of oxygen if its atomic mass is 16 amu?",
+        "options": [
+          "16 g/mol",
+          "32 g/mol",
+          "8 g/mol",
+          "16 amu"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Significant Figures",
+        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. This includes all non-zero digits, any zeros between significant digits, and any trailing zeros in the decimal portion."
+      },
+      "question_card": {
+        "question": "How many significant figures are in the number 0.004560?",
         "options": [
           "3",
           "4",
           "5",
           "6"
         ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Summation with Significant Figures",
-        "explanation": "When adding or subtracting numbers, the result should be reported with the same number of decimal places as the number with the least decimal places. For example, the sum of 436.32, 227.2, and 0.301 should be reported as 663.8."
-      },
-      "question_card": {
-        "question": "What is the sum of 436.32, 227.2, and 0.301 in appropriate significant figures?",
-        "options": [
-          "663.821",
-          "663.82",
-          "663.8",
-          "664"
-        ],
         "correct_option": 3
       }
     },
     {
       "concept_card": {
-        "concept": "Area Calculation with Significant Figures",
-        "explanation": "When calculating the area of a shape, the result should be reported with the same number of significant figures as the measurement with the least significant figures. For example, if the radius of a disk is 1.2 cm, the area should be reported as 4.5 cm²."
+        "concept": "Unit Conversion",
+        "explanation": "Unit conversion involves changing the units of a measured quantity without changing its value. This is often done using conversion factors, which are ratios that express how many of one unit are equal to another unit."
       },
       "question_card": {
-        "question": "The radius of a disk is 1.2 cm. What is its area according to the idea of significant figures?",
+        "question": "Convert 3.2 micrograms to nanograms.",
         "options": [
-          "4.5216 cm²",
-          "4.521 cm²",
-          "4.52 cm²",
-          "4.5 cm²"
+          "3200 ng",
+          "320 ng",
+          "32000 ng",
+          "32 ng"
         ],
-        "correct_option": 4
+        "correct_option": 1
       }
     },
     {
       "concept_card": {
-        "concept": "Atomic Mass and Molar Mass",
-        "explanation": "The atomic mass of an element is the mass of one atom of that element, usually expressed in atomic mass units (amu). The molar mass is the mass of one mole of atoms of that element, expressed in grams. For example, the atomic mass of calcium is 40 amu, and its molar mass is 40 grams."
+        "concept": "Molecular Mass",
+        "explanation": "Molecular mass is the mass of a single molecule, calculated by summing the atomic masses of all the atoms in the molecule. It is usually expressed in atomic mass units (amu)."
       },
       "question_card": {
-        "question": "What is the molar mass of calcium if its atomic mass is 40 amu?",
+        "question": "What is the molecular mass of H2O?",
         "options": [
-          "20 grams",
-          "40 grams",
-          "60 grams",
-          "80 grams"
+          "18 amu",
+          "16 amu",
+          "20 amu",
+          "2 amu"
         ],
-        "correct_option": 2
+        "correct_option": 1
       }
     },
     {
       "concept_card": {
-        "concept": "Mole Concept",
-        "explanation": "A mole is a unit that represents $6.022 \\times 10^{23}$ entities (atoms, molecules, etc.). It is a numerical prefix similar to 'dozen' but much larger. For example, one mole of electrons is $6.022 \\times 10^{23}$ electrons."
+        "concept": "Avogadro's Number",
+        "explanation": "Avogadro's number (6.022 x 10^23) is the number of atoms, ions, or molecules in one mole of a substance. It allows chemists to count particles by weighing them."
       },
       "question_card": {
-        "question": "How many entities are in one mole?",
+        "question": "What is Avogadro's number?",
         "options": [
-          "$6.022 \\times 10^{20}$",
-          "$6.022 \\times 10^{21}$",
-          "$6.022 \\times 10^{22}$",
-          "$6.022 \\times 10^{23}$"
-        ],
-        "correct_option": 4
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Molar Mass of Compounds",
-        "explanation": "The molar mass of a compound is the mass of one mole of its molecules, expressed in grams. For example, the molar mass of water (H₂O) is 18 grams because the molecular mass of water is 18 amu."
-      },
-      "question_card": {
-        "question": "What is the molar mass of water (H₂O)?",
-        "options": [
-          "16 grams",
-          "18 grams",
-          "20 grams",
-          "22 grams"
+          "6.022 x 10^22",
+          "6.022 x 10^23",
+          "6.022 x 10^24",
+          "6.022 x 10^25"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Conversion Between Molecules and Atoms",
-        "explanation": "To convert from molecules to atoms, multiply the number of molecules by the number of atoms per molecule. For example, in 8 moles of O₂, there are $8 \\times 2 \\times 6.022 \\times 10^{23}$ atoms of oxygen."
+        "concept": "Mass of Atoms and Molecules",
+        "explanation": "The mass of an atom or molecule can be expressed in atomic mass units (amu) for individual particles or in grams for moles of particles."
       },
       "question_card": {
-        "question": "How many atoms of oxygen are in 8 moles of O₂?",
+        "question": "What is the mass of one mole of carbon atoms if the atomic mass of carbon is 12 amu?",
         "options": [
-          "$8 \\times 6.022 \\times 10^{23}$",
-          "$8 \\times 2 \\times 6.022 \\times 10^{23}$",
-          "$8 \\times 3 \\times 6.022 \\times 10^{23}$",
-          "$8 \\times 4 \\times 6.022 \\times 10^{23}$"
+          "12 g",
+          "24 g",
+          "6 g",
+          "12 amu"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Calculating Moles",
+        "explanation": "To calculate the number of moles, divide the given mass of a substance by its molar mass. This is useful for converting between mass and number of particles."
+      },
+      "question_card": {
+        "question": "How many moles are in 36 grams of water (H2O)? (Molar mass of H2O = 18 g/mol)",
+        "options": [
+          "1 mol",
+          "2 mol",
+          "0.5 mol",
+          "3 mol"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Mass of One Molecule",
-        "explanation": "The mass of one molecule can be calculated by summing the atomic masses of its constituent atoms. For example, the mass of one molecule of CO₂ is $12 + 16 \\times 2 = 44$ amu."
+        "concept": "Mole to Atom Conversion",
+        "explanation": "To convert moles of a substance to atoms, multiply the number of moles by Avogadro's number. This is useful for determining the number of particles in a given amount of substance."
       },
       "question_card": {
-        "question": "What is the mass of one molecule of CO₂?",
+        "question": "How many atoms are in 2 moles of helium?",
         "options": [
-          "28 amu",
-          "32 amu",
-          "44 amu",
-          "48 amu"
+          "6.022 x 10^23 atoms",
+          "1.2044 x 10^24 atoms",
+          "3.011 x 10^23 atoms",
+          "1.2044 x 10^23 atoms"
         ],
-        "correct_option": 3
+        "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Mass of One Mole of Molecules",
-        "explanation": "The mass of one mole of molecules is the molar mass of the compound, expressed in grams. For example, the mass of one mole of CO₂ molecules is 44 grams."
+        "concept": "Chemical Formulas and Molecules",
+        "explanation": "Chemical formulas represent the types and numbers of atoms in a molecule. For example, H2O represents water, which has 2 hydrogen atoms and 1 oxygen atom."
       },
       "question_card": {
-        "question": "What is the mass of one mole of CO₂ molecules?",
+        "question": "How many hydrogen atoms are in one molecule of H2SO4?",
         "options": [
-          "28 grams",
-          "32 grams",
-          "44 grams",
-          "48 grams"
-        ],
-        "correct_option": 3
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Calculating Number of Atoms",
-        "explanation": "To calculate the number of atoms in a given mass, divide the mass by the atomic mass and multiply by Avogadro's number. For example, in 40 grams of helium (atomic mass 4 amu), there are $40 / 4 \\times 6.022 \\times 10^{23}$ atoms."
-      },
-      "question_card": {
-        "question": "How many atoms are in 40 grams of helium (atomic mass 4 amu)?",
-        "options": [
-          "$6.022 \\times 10^{23}$",
-          "$12.044 \\times 10^{23}$",
-          "$24.088 \\times 10^{23}$",
-          "$60.22 \\times 10^{23}$"
+          "1",
+          "2",
+          "4",
+          "8"
         ],
         "correct_option": 2
       }
