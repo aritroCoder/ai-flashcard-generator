@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Eukaryotic Cell",
+        "explanation": "Eukaryotic cells have a well-defined nucleus with a nuclear membrane. They also contain membrane-bound organelles and complex locomotory and cytoskeletal structures."
+      },
+      "question_card": {
+        "question": "Which of the following is NOT a characteristic of eukaryotic cells?",
+        "options": [
+          "Well-defined nucleus",
+          "Membrane-bound organelles",
+          "Simple locomotory structures",
+          "Complex cytoskeletal structures"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Plant Cell vs Animal Cell",
+        "explanation": "Plant cells have a cell wall, chloroplasts, and a large central vacuole. Animal cells have centrioles and lack a cell wall and chloroplasts."
+      },
+      "question_card": {
+        "question": "Which structure is found in animal cells but not in plant cells?",
+        "options": [
+          "Cell wall",
+          "Chloroplast",
+          "Central vacuole",
+          "Centriole"
+        ],
+        "correct_option": 4
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Cell Membrane",
+        "explanation": "The cell membrane, also known as the plasma membrane, is a universal structure found in all cells. It is selectively permeable and flexible, composed mainly of lipids and proteins."
+      },
+      "question_card": {
+        "question": "What is the primary function of the cell membrane?",
+        "options": [
+          "Provide structure to the cell",
+          "Control the movement of substances in and out of the cell",
+          "Store genetic information",
+          "Produce energy"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Lipid Bilayer",
+        "explanation": "The lipid bilayer forms the basic structure of the cell membrane. It consists of two layers of phospholipids with hydrophilic heads facing outward and hydrophobic tails facing inward."
+      },
+      "question_card": {
+        "question": "What is the arrangement of phospholipids in the cell membrane?",
+        "options": [
+          "Single layer with heads facing outward",
+          "Single layer with tails facing outward",
+          "Bilayer with heads facing outward and tails facing inward",
+          "Bilayer with heads facing inward and tails facing outward"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Phospholipid",
+        "explanation": "Phospholipids are molecules with a hydrophilic (water-attracting) head and two hydrophobic (water-repelling) tails. They are the main component of cell membranes."
+      },
+      "question_card": {
+        "question": "Which part of the phospholipid is hydrophobic?",
+        "options": [
+          "Head",
+          "Tails",
+          "Both head and tails",
+          "Neither head nor tails"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "RBC (Red Blood Cell)",
+        "explanation": "Red blood cells (RBCs) lack a nucleus and most organelles. They are primarily designed to carry hemoglobin and transport oxygen."
+      },
+      "question_card": {
+        "question": "What is the primary function of red blood cells?",
+        "options": [
+          "Store genetic information",
+          "Transport oxygen",
+          "Produce energy",
+          "Defend against pathogens"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Prokaryotic Cell",
+        "explanation": "Prokaryotic cells lack a well-defined nucleus and membrane-bound organelles. Their genetic material is not enclosed within a nuclear membrane."
+      },
+      "question_card": {
+        "question": "Which of the following is a characteristic of prokaryotic cells?",
+        "options": [
+          "Well-defined nucleus",
+          "Membrane-bound organelles",
+          "Lack of nuclear membrane",
+          "Complex cytoskeletal structures"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Cytoskeleton",
+        "explanation": "The cytoskeleton is a network of protein fibers that provides structure and shape to the cell. It also plays a role in cell movement and division."
+      },
+      "question_card": {
+        "question": "What is the primary role of the cytoskeleton?",
+        "options": [
+          "Store genetic information",
+          "Produce energy",
+          "Provide structure and shape to the cell",
+          "Transport oxygen"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mesosome",
+        "explanation": "Mesosomes are folded invaginations in the plasma membrane of prokaryotic cells. They are involved in cell wall formation, DNA replication, and distribution to daughter cells."
+      },
+      "question_card": {
+        "question": "What is the function of mesosomes in prokaryotic cells?",
+        "options": [
+          "Energy production",
+          "Protein synthesis",
+          "Cell wall formation and DNA replication",
+          "Transport of substances"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Fluid Mosaic Model",
+        "explanation": "The fluid mosaic model describes the structure of the cell membrane as a mosaic of components, including phospholipids, cholesterol, proteins, and carbohydrates, which gives the membrane a fluid character."
+      },
+      "question_card": {
+        "question": "Which model describes the structure of the cell membrane?",
+        "options": [
+          "Lock and key model",
+          "Fluid mosaic model",
+          "Induced fit model",
+          "Double helix model"
+        ],
+        "correct_option": 2
+      }
+    }
+  ]
+}
