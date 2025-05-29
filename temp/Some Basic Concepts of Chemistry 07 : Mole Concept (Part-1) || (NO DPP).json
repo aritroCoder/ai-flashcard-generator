@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Significant Figures",
+        "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. For example, in the number 0.0006032, there are four significant figures: 6, 0, 3, and 2."
+      },
+      "question_card": {
+        "question": "How many significant figures are in the number 0.0006032?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Summation with Significant Figures",
+        "explanation": "When adding or subtracting numbers, the result should be reported with the same number of decimal places as the number with the least decimal places. For example, the sum of 436.32, 227.2, and 0.301 should be reported as 663.8."
+      },
+      "question_card": {
+        "question": "What is the sum of 436.32, 227.2, and 0.301 in appropriate significant figures?",
+        "options": [
+          "663.821",
+          "663.82",
+          "663.8",
+          "664"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Area Calculation with Significant Figures",
+        "explanation": "When calculating the area of a shape, the result should be reported with the same number of significant figures as the measurement with the least significant figures. For example, if the radius of a disk is 1.2 cm, the area should be reported as 4.5 cm²."
+      },
+      "question_card": {
+        "question": "The radius of a disk is 1.2 cm. What is its area according to the idea of significant figures?",
+        "options": [
+          "4.5216 cm²",
+          "4.521 cm²",
+          "4.52 cm²",
+          "4.5 cm²"
+        ],
+        "correct_option": 4
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Atomic Mass and Molar Mass",
+        "explanation": "The atomic mass of an element is the mass of one atom of that element, usually expressed in atomic mass units (amu). The molar mass is the mass of one mole of atoms of that element, expressed in grams. For example, the atomic mass of calcium is 40 amu, and its molar mass is 40 grams."
+      },
+      "question_card": {
+        "question": "What is the molar mass of calcium if its atomic mass is 40 amu?",
+        "options": [
+          "20 grams",
+          "40 grams",
+          "60 grams",
+          "80 grams"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mole Concept",
+        "explanation": "A mole is a unit that represents $6.022 \\times 10^{23}$ entities (atoms, molecules, etc.). It is a numerical prefix similar to 'dozen' but much larger. For example, one mole of electrons is $6.022 \\times 10^{23}$ electrons."
+      },
+      "question_card": {
+        "question": "How many entities are in one mole?",
+        "options": [
+          "$6.022 \\times 10^{20}$",
+          "$6.022 \\times 10^{21}$",
+          "$6.022 \\times 10^{22}$",
+          "$6.022 \\times 10^{23}$"
+        ],
+        "correct_option": 4
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Molar Mass of Compounds",
+        "explanation": "The molar mass of a compound is the mass of one mole of its molecules, expressed in grams. For example, the molar mass of water (H₂O) is 18 grams because the molecular mass of water is 18 amu."
+      },
+      "question_card": {
+        "question": "What is the molar mass of water (H₂O)?",
+        "options": [
+          "16 grams",
+          "18 grams",
+          "20 grams",
+          "22 grams"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Conversion Between Molecules and Atoms",
+        "explanation": "To convert from molecules to atoms, multiply the number of molecules by the number of atoms per molecule. For example, in 8 moles of O₂, there are $8 \\times 2 \\times 6.022 \\times 10^{23}$ atoms of oxygen."
+      },
+      "question_card": {
+        "question": "How many atoms of oxygen are in 8 moles of O₂?",
+        "options": [
+          "$8 \\times 6.022 \\times 10^{23}$",
+          "$8 \\times 2 \\times 6.022 \\times 10^{23}$",
+          "$8 \\times 3 \\times 6.022 \\times 10^{23}$",
+          "$8 \\times 4 \\times 6.022 \\times 10^{23}$"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mass of One Molecule",
+        "explanation": "The mass of one molecule can be calculated by summing the atomic masses of its constituent atoms. For example, the mass of one molecule of CO₂ is $12 + 16 \\times 2 = 44$ amu."
+      },
+      "question_card": {
+        "question": "What is the mass of one molecule of CO₂?",
+        "options": [
+          "28 amu",
+          "32 amu",
+          "44 amu",
+          "48 amu"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Mass of One Mole of Molecules",
+        "explanation": "The mass of one mole of molecules is the molar mass of the compound, expressed in grams. For example, the mass of one mole of CO₂ molecules is 44 grams."
+      },
+      "question_card": {
+        "question": "What is the mass of one mole of CO₂ molecules?",
+        "options": [
+          "28 grams",
+          "32 grams",
+          "44 grams",
+          "48 grams"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Calculating Number of Atoms",
+        "explanation": "To calculate the number of atoms in a given mass, divide the mass by the atomic mass and multiply by Avogadro's number. For example, in 40 grams of helium (atomic mass 4 amu), there are $40 / 4 \\times 6.022 \\times 10^{23}$ atoms."
+      },
+      "question_card": {
+        "question": "How many atoms are in 40 grams of helium (atomic mass 4 amu)?",
+        "options": [
+          "$6.022 \\times 10^{23}$",
+          "$12.044 \\times 10^{23}$",
+          "$24.088 \\times 10^{23}$",
+          "$60.22 \\times 10^{23}$"
+        ],
+        "correct_option": 2
+      }
+    }
+  ]
+}

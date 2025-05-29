@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Endomembrane System",
+        "explanation": "The endomembrane system is a group of interconnected organelles in eukaryotic cells that work together to modify, package, and transport lipids and proteins. It includes the endoplasmic reticulum (ER), Golgi apparatus, lysosomes, and vacuoles. These organelles are connected by vesicles that transport materials between them."
+      },
+      "question_card": {
+        "question": "Which organelles are part of the endomembrane system?",
+        "options": [
+          "Mitochondria, Chloroplast, Peroxisome",
+          "Endoplasmic Reticulum, Golgi Apparatus, Lysosomes, Vacuoles",
+          "Nucleus, Ribosomes, Cytoskeleton",
+          "Plasma Membrane, Cell Wall, Cytoplasm"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Endoplasmic Reticulum (ER)",
+        "explanation": "The endoplasmic reticulum (ER) is a network of membranous tubules and sacs called cisternae. It is involved in the synthesis of proteins and lipids. The rough ER has ribosomes attached to its surface and synthesizes proteins, while the smooth ER lacks ribosomes and synthesizes lipids and steroid hormones."
+      },
+      "question_card": {
+        "question": "What is the main function of the rough endoplasmic reticulum (RER)?",
+        "options": [
+          "Synthesis of lipids",
+          "Synthesis of proteins",
+          "Storage of calcium ions",
+          "Detoxification of drugs"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Golgi Apparatus",
+        "explanation": "The Golgi apparatus is a series of flattened membrane-bound sacs called cisternae. It modifies, sorts, and packages proteins and lipids received from the ER. The Golgi apparatus has a cis face (receiving side) and a trans face (shipping side). It is also involved in the formation of lysosomes."
+      },
+      "question_card": {
+        "question": "What is the main function of the Golgi apparatus?",
+        "options": [
+          "Synthesis of proteins",
+          "Modification, sorting, and packaging of proteins and lipids",
+          "Synthesis of ATP",
+          "Photosynthesis"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Lysosomes",
+        "explanation": "Lysosomes are membrane-bound vesicles that contain hydrolytic enzymes capable of breaking down biomolecules. They are involved in the digestion of cellular waste, pathogens, and damaged organelles. Lysosomes maintain an acidic environment to activate their enzymes."
+      },
+      "question_card": {
+        "question": "What is the primary function of lysosomes?",
+        "options": [
+          "Protein synthesis",
+          "Lipid synthesis",
+          "Digestion of cellular waste and pathogens",
+          "Photosynthesis"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Vacuoles",
+        "explanation": "Vacuoles are large membrane-bound organelles found in plant and fungal cells. They store nutrients, waste products, and help maintain turgor pressure in plant cells. In animal cells, vacuoles are smaller and involved in storage and transport."
+      },
+      "question_card": {
+        "question": "What is the main function of vacuoles in plant cells?",
+        "options": [
+          "Protein synthesis",
+          "Storage of nutrients and waste products",
+          "Photosynthesis",
+          "Cell division"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Ribosomes",
+        "explanation": "Ribosomes are small, non-membrane-bound organelles composed of rRNA and proteins. They are the sites of protein synthesis and can be found floating freely in the cytoplasm or attached to the rough ER."
+      },
+      "question_card": {
+        "question": "Where are ribosomes found in the cell?",
+        "options": [
+          "Only in the nucleus",
+          "Only in the cytoplasm",
+          "Attached to the rough ER and floating freely in the cytoplasm",
+          "Only in the Golgi apparatus"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Protein Synthesis",
+        "explanation": "Protein synthesis occurs in two main stages: transcription and translation. Transcription takes place in the nucleus where DNA is transcribed into mRNA. Translation occurs in the cytoplasm where ribosomes translate mRNA into a polypeptide chain."
+      },
+      "question_card": {
+        "question": "What are the two main stages of protein synthesis?",
+        "options": [
+          "Replication and Transcription",
+          "Transcription and Translation",
+          "Translation and Replication",
+          "Replication and Translation"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Steroid Hormones",
+        "explanation": "Steroid hormones are lipophilic molecules derived from cholesterol. They are synthesized in the smooth ER and include hormones such as testosterone, estrogen, and cortisol. These hormones can pass through cell membranes and bind to intracellular receptors."
+      },
+      "question_card": {
+        "question": "Where are steroid hormones synthesized in the cell?",
+        "options": [
+          "Rough ER",
+          "Smooth ER",
+          "Golgi apparatus",
+          "Lysosomes"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Hydrolytic Enzymes",
+        "explanation": "Hydrolytic enzymes are enzymes that catalyze the hydrolysis of chemical bonds. They are found in lysosomes and are responsible for breaking down biomolecules such as proteins, lipids, nucleic acids, and carbohydrates."
+      },
+      "question_card": {
+        "question": "In which organelle are hydrolytic enzymes found?",
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Lysosomes",
+          "Golgi apparatus"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Cisternae",
+        "explanation": "Cisternae are flattened membrane-bound sacs that make up the Golgi apparatus. They are involved in the modification, sorting, and packaging of proteins and lipids. The cisternae are arranged in a stack with a cis face (receiving side) and a trans face (shipping side)."
+      },
+      "question_card": {
+        "question": "What are cisternae?",
+        "options": [
+          "Tubules in the ER",
+          "Sacs in the Golgi apparatus",
+          "Vesicles in lysosomes",
+          "Channels in the plasma membrane"
+        ],
+        "correct_option": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "flashcards": [
+    {
+      "concept_card": {
+        "concept": "Multicellularity",
+        "explanation": "Multicellularity refers to organisms whose bodies are made up of many cells. These cells work together to perform various functions necessary for the organism's survival. For example, humans are multicellular organisms."
+      },
+      "question_card": {
+        "question": "What does multicellularity mean?",
+        "options": [
+          "Organisms with a single cell",
+          "Organisms with many cells",
+          "Organisms that produce their own food",
+          "Organisms that do not need food"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Heterotrophs",
+        "explanation": "Heterotrophs are organisms that depend on other organisms for food. They cannot produce their own food like plants do through photosynthesis. All animals, including humans, are heterotrophs."
+      },
+      "question_card": {
+        "question": "What are heterotrophs?",
+        "options": [
+          "Organisms that produce their own food",
+          "Organisms that depend on others for food",
+          "Organisms that do not need food",
+          "Organisms that live in water"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Holozoic Nutrition",
+        "explanation": "Holozoic nutrition is a mode of nutrition in which organisms ingest solid food and then digest it. This is typical of animals, including humans."
+      },
+      "question_card": {
+        "question": "What is holozoic nutrition?",
+        "options": [
+          "Ingesting and digesting solid food",
+          "Absorbing nutrients from water",
+          "Producing food through photosynthesis",
+          "Living without food"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Unicellular Organisms",
+        "explanation": "Unicellular organisms are made up of a single cell that performs all the functions necessary for the organism's survival, such as digestion, respiration, and reproduction. Examples include amoeba and paramecium."
+      },
+      "question_card": {
+        "question": "What are unicellular organisms?",
+        "options": [
+          "Organisms with many cells",
+          "Organisms with a single cell",
+          "Organisms that produce their own food",
+          "Organisms that live in colonies"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Intercellular Substance",
+        "explanation": "Intercellular substance, also known as extracellular substance, is the material found between cells. It helps in providing support and structure to tissues."
+      },
+      "question_card": {
+        "question": "What is intercellular substance?",
+        "options": [
+          "Material inside the cell",
+          "Material between cells",
+          "Material that makes up the cell membrane",
+          "Material that cells produce to fight infections"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Tissues",
+        "explanation": "Tissues are groups of similar cells that work together to perform a specific function. For example, muscle tissue is made up of muscle cells that work together to produce movement."
+      },
+      "question_card": {
+        "question": "What are tissues?",
+        "options": [
+          "Groups of different cells performing various functions",
+          "Groups of similar cells performing a specific function",
+          "Single cells performing all functions",
+          "Cells that do not perform any function"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Division of Labour in Multicellular Organisms",
+        "explanation": "In multicellular organisms, different cells perform different functions. This division of labour makes the organism more efficient. For example, in humans, muscle cells help in movement, while nerve cells help in transmitting signals."
+      },
+      "question_card": {
+        "question": "What is the division of labour in multicellular organisms?",
+        "options": [
+          "All cells perform all functions",
+          "Different cells perform different functions",
+          "Cells do not perform any function",
+          "Cells perform functions randomly"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Examples of Multicellular Organisms",
+        "explanation": "Examples of multicellular organisms include humans, frogs, snakes, and hydra. These organisms have bodies made up of many cells that work together."
+      },
+      "question_card": {
+        "question": "Which of the following is an example of a multicellular organism?",
+        "options": [
+          "Amoeba",
+          "Paramecium",
+          "Hydra",
+          "Bacteria"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Specific Function of Tissues",
+        "explanation": "Each type of tissue in an organism performs a specific function. For example, epithelial tissue covers body surfaces, while connective tissue supports and binds other tissues."
+      },
+      "question_card": {
+        "question": "What is a specific function of tissues?",
+        "options": [
+          "Performing all functions",
+          "Performing a specific function",
+          "Not performing any function",
+          "Performing random functions"
+        ],
+        "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Animal Kingdom",
+        "explanation": "The animal kingdom includes all multicellular organisms that are heterotrophic and have complex body structures. Examples include humans, frogs, and snakes."
+      },
+      "question_card": {
+        "question": "What is included in the animal kingdom?",
+        "options": [
+          "Unicellular organisms",
+          "Multicellular organisms that produce their own food",
+          "Multicellular organisms that are heterotrophic",
+          "Non-living things"
+        ],
+        "correct_option": 3
+      }
+    }
+  ]
+}
