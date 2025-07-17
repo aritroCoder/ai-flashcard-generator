@@ -78,37 +78,37 @@ if speech_model is None:
         "No speech model is configured. Please check your environment variables."
     )
 
-'''
-Generate transcript from the video file using the speech client
-'''
-transcript = get_audio_transcript(
-    video_path="video/vid1.mp4",
-    audio_folder="audio",
-    audiofile="vid1",
-    client=speech_client,
-    model=speech_model,
-    verbose=False,
-)
+# '''
+# Generate transcript from the video file using the speech client
+# '''
+# transcript = get_audio_transcript(
+#     video_path="video/vid1.mp4",
+#     audio_folder="audio",
+#     audiofile="vid1",
+#     client=speech_client,
+#     model=speech_model,
+#     verbose=False,
+# )
 
-'''
-Save the generated transcript to a file
-'''
-transcript_file = "transcript.txt"
-with open(transcript_file, "w", encoding="utf-8") as f:
-    if isinstance(transcript, dict):
-        f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
-    else:
-        f.write(transcript)
-
-# '''load transcript from file if already generated'''
+# '''
+# Save the generated transcript to a file
+# '''
 # transcript_file = "transcript.txt"
-# if os.path.exists(transcript_file):
-#     with open(transcript_file, "r", encoding="utf-8") as f:
-#         transcript = f.read()
-# else:
-#     raise FileNotFoundError(
-#         f"Transcript file {transcript_file} not found. Please generate the transcript first."
-#     )
+# with open(transcript_file, "w", encoding="utf-8") as f:
+#     if isinstance(transcript, dict):
+#         f.write(json.dumps(transcript, ensure_ascii=False, indent=2))
+#     else:
+#         f.write(transcript)
+
+'''load transcript from file if already generated'''
+transcript_file = "transcript.txt"
+if os.path.exists(transcript_file):
+    with open(transcript_file, "r", encoding="utf-8") as f:
+        transcript = f.read()
+else:
+    raise FileNotFoundError(
+        f"Transcript file {transcript_file} not found. Please generate the transcript first."
+    )
 
 lecture_notes_file = "lecture_notes/vid1.pdf"
 
@@ -186,7 +186,8 @@ Lecture notes: {notes}"""
         temperature=0.3
     )
 
-    return response.choices[0].message.function_call
+    usage = response.usage
+    return response.choices[0].message.function_call, usage.prompt_tokens if usage else None, usage.completion_tokens if usage else None
 
 
 if chat_client is None:
@@ -203,7 +204,7 @@ if not isinstance(transcript, str):
         "Transcript must be a string. Got type: " + type(transcript).__name__
     )
 
-flashcards = generate_flashcards(
+flashcards, prompt_tokens, completion_tokens = generate_flashcards(
     notes=all_text,
     client=chat_client,
     model=chat_model,
@@ -227,4 +228,9 @@ print(f"Flashcards saved to {flashcards_file}")
 
 end_time = time.time()
 elapsed = end_time - start_time
+prompt_token_cost = 0.000429
+completion_token_cost = 0.001716
 print(f"Total execution time: {elapsed:.2f} seconds")
+print(f"Prompt tokens used: {prompt_tokens if prompt_tokens else 'N/A'}")
+print(f"Completion tokens used: {completion_tokens if completion_tokens else 'N/A'}")
+print(f"Total cost: ₹{(prompt_tokens * prompt_token_cost + completion_tokens * completion_token_cost) if prompt_tokens and completion_tokens else 'N/A'}")

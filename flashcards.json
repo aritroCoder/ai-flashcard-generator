@@ -2,16 +2,32 @@
   "flashcards": [
     {
       "concept_card": {
-        "concept": "Parallelogram Law of Vector Addition",
-        "explanation": "The parallelogram law of vector addition states that if two vectors are represented as two adjacent sides of a parallelogram, then the resultant vector is represented by the diagonal of the parallelogram starting from the same point."
+        "concept": "Parallelogram Law",
+        "explanation": "The Parallelogram Law is used to find the resultant of two vectors. If two vectors are represented by the adjacent sides of a parallelogram, then the diagonal of the parallelogram represents the resultant vector."
       },
       "question_card": {
-        "question": "What does the parallelogram law of vector addition state?",
+        "question": "What does the diagonal of a parallelogram represent in vector addition?",
         "options": [
-          "The resultant is the sum of the magnitudes of the vectors",
-          "The resultant is the difference of the magnitudes of the vectors",
-          "The resultant is represented by the diagonal of the parallelogram",
-          "The resultant is perpendicular to the vectors"
+          "Sum of vectors",
+          "Difference of vectors",
+          "Product of vectors",
+          "Quotient of vectors"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Vector Addition",
+        "explanation": "Vector addition involves combining two or more vectors to get a resultant vector. This can be done using the parallelogram law or the triangle law."
+      },
+      "question_card": {
+        "question": "Which law can be used to find the resultant vector when adding two vectors?",
+        "options": [
+          "Parallelogram Law",
+          "Triangle Law",
+          "Both",
+          "None"
         ],
         "correct_option": 3
       }
@@ -24,140 +40,124 @@
       "question_card": {
         "question": "How do you subtract vector B from vector A?",
         "options": [
-          "Add vector B to vector A",
-          "Subtract vector A from vector B",
-          "Add the negative of vector B to vector A",
-          "Subtract the negative of vector A from vector B"
+          "Add B to A",
+          "Add negative B to A",
+          "Subtract A from B",
+          "Subtract B from A"
         ],
-        "correct_option": 3
+        "correct_option": 2
       }
     },
     {
       "concept_card": {
         "concept": "Resultant Vector",
-        "explanation": "The resultant vector is the vector sum of two or more vectors. It is found by adding the corresponding components of the given vectors."
+        "explanation": "The resultant vector is the vector sum of two or more vectors. It can be found using the parallelogram law or triangle law."
       },
       "question_card": {
-        "question": "What is a resultant vector?",
+        "question": "What is the resultant vector?",
         "options": [
-          "A vector that is perpendicular to the given vectors",
-          "A vector that is the sum of two or more vectors",
-          "A vector that is the difference of two vectors",
-          "A vector that is the product of two vectors"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Magnitude of Resultant Vector",
-        "explanation": "The magnitude of the resultant vector can be found using the formula: R = √(A² + B² + 2AB cosθ), where A and B are the magnitudes of the two vectors and θ is the angle between them."
-      },
-      "question_card": {
-        "question": "How do you find the magnitude of the resultant vector of two vectors A and B with an angle θ between them?",
-        "options": [
-          "R = A + B",
-          "R = A - B",
-          "R = √(A² + B² + 2AB cosθ)",
-          "R = √(A² + B² - 2AB cosθ)"
-        ],
-        "correct_option": 3
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Angle Between Vectors",
-        "explanation": "The angle between two vectors can be found using the dot product formula: cosθ = (A·B) / (|A||B|), where A·B is the dot product of the vectors and |A| and |B| are their magnitudes."
-      },
-      "question_card": {
-        "question": "How can you find the angle between two vectors A and B?",
-        "options": [
-          "Using the cross product formula",
-          "Using the dot product formula",
-          "Using the sum of the vectors",
-          "Using the difference of the vectors"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Dot Product of Vectors",
-        "explanation": "The dot product of two vectors is a scalar quantity that is equal to the product of their magnitudes and the cosine of the angle between them."
-      },
-      "question_card": {
-        "question": "What is the dot product of two vectors?",
-        "options": [
-          "A vector quantity",
-          "A scalar quantity",
-          "The sum of the vectors",
-          "The difference of the vectors"
-        ],
-        "correct_option": 2
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Cross Product of Vectors",
-        "explanation": "The cross product of two vectors is a vector that is perpendicular to both of the original vectors. Its magnitude is equal to the product of their magnitudes and the sine of the angle between them."
-      },
-      "question_card": {
-        "question": "What is the cross product of two vectors?",
-        "options": [
-          "A scalar quantity",
-          "A vector that is parallel to the original vectors",
-          "A vector that is perpendicular to the original vectors",
-          "The sum of the vectors"
-        ],
-        "correct_option": 3
-      }
-    },
-    {
-      "concept_card": {
-        "concept": "Unit Vector",
-        "explanation": "A unit vector is a vector with a magnitude of 1. It is used to specify a direction."
-      },
-      "question_card": {
-        "question": "What is a unit vector?",
-        "options": [
-          "A vector with a magnitude of 1",
-          "A vector with a magnitude of 0",
-          "A vector with a magnitude greater than 1",
-          "A vector with a negative magnitude"
+          "The vector sum of two or more vectors",
+          "The vector difference of two or more vectors",
+          "The vector product of two or more vectors",
+          "The vector quotient of two or more vectors"
         ],
         "correct_option": 1
       }
     },
     {
       "concept_card": {
-        "concept": "Components of a Vector",
-        "explanation": "A vector can be broken down into its components along the x and y axes. These components can be found using trigonometric functions."
+        "concept": "Angle Between Vectors",
+        "explanation": "The angle between two vectors affects the magnitude of their resultant vector. The cosine of the angle is used in the formula to find the resultant vector."
       },
       "question_card": {
-        "question": "How can a vector be broken down?",
+        "question": "Which trigonometric function is used in the formula to find the resultant vector?",
         "options": [
-          "Into its magnitude and direction",
-          "Into its components along the x and y axes",
-          "Into its magnitude and angle",
-          "Into its scalar and vector parts"
+          "Sine",
+          "Cosine",
+          "Tangent",
+          "Cotangent"
         ],
         "correct_option": 2
       }
     },
     {
       "concept_card": {
-        "concept": "Pythagorean Theorem in Vectors",
-        "explanation": "The Pythagorean theorem can be used to find the magnitude of the resultant vector when two vectors are perpendicular to each other: R = √(A² + B²)."
+        "concept": "Cosine Rule",
+        "explanation": "The cosine rule is used to find the magnitude of the resultant vector in the parallelogram law. The formula is R = √(A² + B² + 2AB cos θ)."
       },
       "question_card": {
-        "question": "How is the Pythagorean theorem used in vectors?",
+        "question": "What is the formula for the magnitude of the resultant vector using the cosine rule?",
         "options": [
-          "To find the angle between two vectors",
-          "To find the magnitude of the resultant vector when two vectors are perpendicular",
-          "To find the dot product of two vectors",
-          "To find the cross product of two vectors"
+          "R = √(A² + B² + 2AB cos θ)",
+          "R = √(A² + B² - 2AB cos θ)",
+          "R = √(A² - B² + 2AB cos θ)",
+          "R = √(A² - B² - 2AB cos θ)"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Triangle Law",
+        "explanation": "The Triangle Law states that if two vectors are represented as two sides of a triangle, then their sum is represented by the third side of the triangle taken in the opposite direction."
+      },
+      "question_card": {
+        "question": "In the triangle law, what does the third side of the triangle represent?",
+        "options": [
+          "Sum of vectors",
+          "Difference of vectors",
+          "Product of vectors",
+          "Quotient of vectors"
+        ],
+        "correct_option": 1
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Perpendicular Vectors",
+        "explanation": "When two vectors are perpendicular, the angle between them is 90 degrees. This simplifies the calculation of their resultant vector."
+      },
+      "question_card": {
+        "question": "What is the angle between two perpendicular vectors?",
+        "options": [
+          "0 degrees",
+          "45 degrees",
+          "90 degrees",
+          "180 degrees"
+        ],
+        "correct_option": 3
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Negative Vector",
+        "explanation": "A negative vector has the same magnitude as the original vector but points in the opposite direction. It is used in vector subtraction."
+      },
+      "question_card": {
+        "question": "What is a negative vector?",
+        "options": [
+          "A vector with a negative magnitude",
+          "A vector pointing in the opposite direction",
+          "A vector with zero magnitude",
+          "A vector with infinite magnitude"
         ],
         "correct_option": 2
+      }
+    },
+    {
+      "concept_card": {
+        "concept": "Vector Magnitude",
+        "explanation": "The magnitude of a vector is its length. It can be calculated using the Pythagorean theorem if the vector components are known."
+      },
+      "question_card": {
+        "question": "How can the magnitude of a vector be calculated if the vector components are known?",
+        "options": [
+          "Using the Pythagorean theorem",
+          "Using the cosine rule",
+          "Using the sine rule",
+          "Using the tangent rule"
+        ],
+        "correct_option": 1
       }
     }
   ]
